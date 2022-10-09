@@ -1,0 +1,60 @@
+.join-container {
+    background-image: url('https://account.ny.sportsbook.fanduel.com/fd-iwa-assets/graphics/background/main-sportsbook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100vh; 
+    width: 100vw;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.join-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-form h2 {
+    color: rgb(84,103,130);
+    text-align: center;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    border-radius: 5px;
+    max-width: 40vw;
+}
+.join-container h1{
+    color: rgb(255,255,255);
+}
+
+.already {
+    background-color: rgb(38,70,111);
+    color: rgb(255,255,255);
+    font-weight: bold;
+    height: 3vh;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    height: 3vh;
+    line-height: 3vh;
+    cursor: pointer;
+}
+.already:hover {
+    background-color: rgb(32,60,98);
+}
+
+.bottom-text {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.bottom-text span {
+    color: rgb(19,147,255);
+}

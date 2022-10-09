@@ -1,0 +1,56 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31,55,91);
+    align-items: center;
+    
+}
+
+.nav-container div {
+    display: flex;
+    border: 2px solid red;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    
+}
+.nav-container div p {
+    cursor: pointer;
+}
+
+.home-btn {
+    margin-right: 2vw;
+}
+.log-btn {
+    margin-right: 2vw;
+    background-color: rgb(20,137,239);
+
+}
+.home-btn:hover {
+    text-decoration: underline;
+}
+.my-bets:hover {
+    text-decoration: underline;
+}
+.logo {
+    margin-right: 6vw;
+    margin-left: 2vw;
+}
+
+.log-join-div p{
+    border-radius: 5px;
+    height: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5vh;
+    width: 9vw;
+}
+
+.join-btn {
+    background-color: rgb(25,169,78);
+    margin-right: 2vw;
+}
+
+.log-out-btn {
+    background-color: rgb(25,169,78);
+    margin-right: 2vw;
+}
