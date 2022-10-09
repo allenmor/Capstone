@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 
-function NavBar({setLoggedUser}) {
+function NavBar({setLoggedUser, loggedUser}) {
   const navigate = useNavigate();
 
   function handleJoinClick() {
@@ -37,6 +37,12 @@ function NavBar({setLoggedUser}) {
         <p onClick={handleJoinClick} className="join-btn">Join Now</p>
       </div> :
       <div className='log-join-div'>
+        <img className="user-image" src={loggedUser.image}/>
+        <p>{loggedUser.name}</p>
+        <div className="balance-div">
+         <p>{`$${loggedUser.balance}`}</p> 
+         <p className="balance-word">Balance</p>
+        </div>
       <p onClick={handleLogOut} className="log-out-btn">Log Out</p>
       </div>    
       }

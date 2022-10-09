@@ -13,9 +13,14 @@
     cursor: pointer;
 }
 
-.popular-div p span img {
+.popular-div div {
+    display: flex;
+    align-items: center;
+}
+.popular-div div img {
     width: 3vw;
     height: 3vh;
+    margin-right: 1vw;
 }
 
 .popular-div h3 {

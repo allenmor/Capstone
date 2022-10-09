@@ -33,13 +33,13 @@ function App() {
     <Routes>
       <Route path='/' element={
         <>
-        <NavBar setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
         <Home loggedUser={loggedUser}/>
         </>
       }/>
       <Route path='/join' element={
         <>
-        <NavBar/>
+        <NavBar />
         <Join setUserSignedUp={setUserSignedUp}/>
         </>
       }/>
