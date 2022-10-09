@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 
-function NavBar({user, setLoggedUser}) {
+function NavBar({setLoggedUser}) {
   const navigate = useNavigate();
 
   function handleJoinClick() {
@@ -18,6 +18,11 @@ function NavBar({user, setLoggedUser}) {
     setLoggedUser({name: ""})
     navigate(`/`);
   }
+  function handleLogIn() {
+    navigate(`/login`);
+  }
+
+  console.log(sessionStorage.getItem('jwt'))
   return (
     <div className="nav-container">
       <div>
@@ -26,9 +31,9 @@ function NavBar({user, setLoggedUser}) {
         <p className="my-bets">My Bets</p>
       </div>
       {
-        !sessionStorage.getItem('jwt') ?
+        sessionStorage.getItem('jwt') == null || sessionStorage.getItem('jwt') == 'undefined'?
       <div className="log-join-div">
-        <p className="log-btn">Log In</p>
+        <p onClick={handleLogIn} className="log-btn">Log In</p>
         <p onClick={handleJoinClick} className="join-btn">Join Now</p>
       </div> :
       <div className='log-join-div'>

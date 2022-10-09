@@ -1,13 +1,15 @@
 import './App.css';
 import Join from './components/Join';
 import Home from './components/Home';
+import LogIn from './components/LogIn';
 import NavBar from './components/NavBar';
 import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [meFetch, setMeFetch] = useState(false)
   const [loggedUser, setLoggedUser] = useState({name: ''})
+  const [userSignedUp, setUserSignedUp] = useState(false)
+
   useEffect(() => {
     let token = sessionStorage.getItem('jwt')
     if(token && !loggedUser.name) {
@@ -20,15 +22,11 @@ function App() {
         .then(res => res.json())
         .then(data => {
              setLoggedUser(data)
-             setMeFetch(prev => !prev)
           })
         }
+      },[userSignedUp])
 
-      },[])
 
-      useEffect(()=>{
-      
-      },[])
 
   return (
     <>
@@ -42,7 +40,13 @@ function App() {
       <Route path='/join' element={
         <>
         <NavBar/>
-        <Join />
+        <Join setUserSignedUp={setUserSignedUp}/>
+        </>
+      }/>
+      <Route path='/login' element={
+        <>
+        <NavBar/>
+        <LogIn setUserSignedUp={setUserSignedUp}/>
         </>
       }/>
     </Routes>

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Join.css'
 
-function Join() {
+function Join({setUserSignedUp}) {
 
     let initialSignup = {name: '', password: ''}
     const [signUp, setSignUp] = useState(initialSignup)
@@ -32,16 +32,20 @@ function Join() {
             setSignUp(initialSignup)
             sessionStorage.setItem("jwt", data.token)
             navigate(`/`);
+            setUserSignedUp(prev => !prev)
         })
     }
 
+    function haveAccountClicked() {
+        navigate('/login')
+    }
   return (
     <div className='join-container'>
         <h1>Sports Book</h1>          
         <div className='form-div'>  
         <form onSubmit={handleSignUpSubmit} className='join-form'>
             <h2>Create Sports Book Account</h2>
-            <p className='already'>Already have a Sports Book account?</p>
+            <p onClick={haveAccountClicked} className='already'>Already have a Sports Book account?</p>
             <input onChange={handleSignUpChange} value={signUp.name} placeholder='Username' name='name' type='text'/>
             <input onChange={handleSignUpChange} value={signUp.password} placeholder='Password' name='password' type='text'/>
             <input type='submit' placeholder='Submit' value='Create account'/>

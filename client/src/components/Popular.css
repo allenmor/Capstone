@@ -1,0 +1,24 @@
+.popular-div {
+    border: 2px solid rgb(41,75,117);
+    width: 14vw;
+    background-color: rgb(28,50,82);
+    height: 90.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-div p {
+    color: white;
+    cursor: pointer;
+}
+
+.popular-div p span img {
+    width: 3vw;
+    height: 3vh;
+}
+
+.popular-div h3 {
+    color: white;
+    font-weight: bold;
+}
