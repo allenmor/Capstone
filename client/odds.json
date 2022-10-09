@@ -1,0 +1,6742 @@
+[
+    {
+    "id": "675423f4d003af7d5f86920e378885f2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2022-10-09T20:05:34Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 750
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1429
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 750
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1430
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 700
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -833
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 820
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -769
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 675
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1100
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 600
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1200
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 600
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1100
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 706
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1112
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 750
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1430
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 800
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 750
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1430
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 500
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -900
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 800
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -3333
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 525
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -800
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "gtbets",
+    "title": "GTbets",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Carolina Panthers",
+    "price": 586
+    },
+    {
+    "name": "San Francisco 49ers",
+    "price": -1131
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "c5ee548e267c1ae3b435e3ea15c74f71",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2022-10-09T20:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 230
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -303
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 260
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -360
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 240
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -300
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 230
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -305
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:22Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 330
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -500
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 230
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -305
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 230
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -305
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 290
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -380
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 250
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -350
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 220
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -300
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "gtbets",
+    "title": "GTbets",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 219
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -311
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 271
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -334
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 285
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -303
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 310
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -286
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 250
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -325
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Arizona Cardinals",
+    "price": 205
+    },
+    {
+    "name": "Philadelphia Eagles",
+    "price": -303
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "469a879f75369b9144bd06d53e8b2fac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2022-10-09T20:25:03Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -139
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 110
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -139
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 110
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -135
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 132
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -133
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 136
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -145
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 115
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -135
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 110
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -130
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 104
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -141
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 120
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -139
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 110
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -140
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 120
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -139
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 110
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:22Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -133
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 105
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -155
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 120
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -143
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 105
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -160
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 130
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "gtbets",
+    "title": "GTbets",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Dallas Cowboys",
+    "price": -162
+    },
+    {
+    "name": "Los Angeles Rams",
+    "price": 121
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "1c5795b9b041bac92c4c873ac806c902",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2022-10-09T20:59:57Z",
+    "home_team": "Atletico Mineiro",
+    "away_team": "Ceará",
+    "bookmakers": [
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -168
+    },
+    {
+    "name": "Ceará",
+    "price": 750
+    },
+    {
+    "name": "Draw",
+    "price": 194
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -166
+    },
+    {
+    "name": "Ceará",
+    "price": 800
+    },
+    {
+    "name": "Draw",
+    "price": 190
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -148
+    },
+    {
+    "name": "Ceará",
+    "price": 750
+    },
+    {
+    "name": "Draw",
+    "price": 180
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -189
+    },
+    {
+    "name": "Ceará",
+    "price": 750
+    },
+    {
+    "name": "Draw",
+    "price": 195
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -133
+    },
+    {
+    "name": "Ceará",
+    "price": 950
+    },
+    {
+    "name": "Draw",
+    "price": 196
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -132
+    },
+    {
+    "name": "Ceará",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 198
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -150
+    },
+    {
+    "name": "Ceará",
+    "price": 800
+    },
+    {
+    "name": "Draw",
+    "price": 180
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -148
+    },
+    {
+    "name": "Ceará",
+    "price": 600
+    },
+    {
+    "name": "Draw",
+    "price": 175
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -148
+    },
+    {
+    "name": "Ceará",
+    "price": 600
+    },
+    {
+    "name": "Draw",
+    "price": 175
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -147
+    },
+    {
+    "name": "Ceará",
+    "price": 600
+    },
+    {
+    "name": "Draw",
+    "price": 175
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -148
+    },
+    {
+    "name": "Ceará",
+    "price": 600
+    },
+    {
+    "name": "Draw",
+    "price": 175
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Atletico Mineiro",
+    "price": -145
+    },
+    {
+    "name": "Ceará",
+    "price": 850
+    },
+    {
+    "name": "Draw",
+    "price": 160
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "21418f748ee794759e7d634258b287cf",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2022-10-09T21:00:49Z",
+    "home_team": "Coritiba",
+    "away_team": "Bragantino-SP",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -117
+    },
+    {
+    "name": "Coritiba",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 165
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": 100
+    },
+    {
+    "name": "Coritiba",
+    "price": 450
+    },
+    {
+    "name": "Draw",
+    "price": 154
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -104
+    },
+    {
+    "name": "Coritiba",
+    "price": 475
+    },
+    {
+    "name": "Draw",
+    "price": 152
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -111
+    },
+    {
+    "name": "Coritiba",
+    "price": 400
+    },
+    {
+    "name": "Draw",
+    "price": 163
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": 110
+    },
+    {
+    "name": "Coritiba",
+    "price": 540
+    },
+    {
+    "name": "Draw",
+    "price": 170
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": 112
+    },
+    {
+    "name": "Coritiba",
+    "price": 560
+    },
+    {
+    "name": "Draw",
+    "price": 172
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": 100
+    },
+    {
+    "name": "Coritiba",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 150
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -104
+    },
+    {
+    "name": "Coritiba",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -104
+    },
+    {
+    "name": "Coritiba",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -103
+    },
+    {
+    "name": "Coritiba",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": -104
+    },
+    {
+    "name": "Coritiba",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Bragantino-SP",
+    "price": 100
+    },
+    {
+    "name": "Coritiba",
+    "price": 475
+    },
+    {
+    "name": "Draw",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "af0aa6e74461aac1c9fafcb1a039fe86",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil Série A",
+    "commence_time": "2022-10-09T21:02:41Z",
+    "home_team": "Fluminense",
+    "away_team": "América Mineiro",
+    "bookmakers": [
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -420
+    },
+    {
+    "name": "Fluminense",
+    "price": 880
+    },
+    {
+    "name": "Draw",
+    "price": 430
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -400
+    },
+    {
+    "name": "Fluminense",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 450
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -460
+    },
+    {
+    "name": "Fluminense",
+    "price": 1150
+    },
+    {
+    "name": "Draw",
+    "price": 475
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -370
+    },
+    {
+    "name": "Fluminense",
+    "price": 1350
+    },
+    {
+    "name": "Draw",
+    "price": 560
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -357
+    },
+    {
+    "name": "Fluminense",
+    "price": 1450
+    },
+    {
+    "name": "Draw",
+    "price": 580
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -475
+    },
+    {
+    "name": "Fluminense",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 500
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -333
+    },
+    {
+    "name": "Fluminense",
+    "price": 600
+    },
+    {
+    "name": "Draw",
+    "price": 375
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -480
+    },
+    {
+    "name": "Fluminense",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 460
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -480
+    },
+    {
+    "name": "Fluminense",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 460
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:19Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -476
+    },
+    {
+    "name": "Fluminense",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 460
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -480
+    },
+    {
+    "name": "Fluminense",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 460
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:21Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "América Mineiro",
+    "price": -450
+    },
+    {
+    "name": "Fluminense",
+    "price": 1050
+    },
+    {
+    "name": "Draw",
+    "price": 500
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "bef82f0eb6779061388605aa9b36703b",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:02Z",
+    "home_team": "Austin FC",
+    "away_team": "Colorado Rapids",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -117
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 315
+    },
+    {
+    "name": "Draw",
+    "price": 240
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -125
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 430
+    },
+    {
+    "name": "Draw",
+    "price": 190
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -130
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 370
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -120
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 375
+    },
+    {
+    "name": "Draw",
+    "price": 195
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -118
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 400
+    },
+    {
+    "name": "Draw",
+    "price": 210
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -110
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 400
+    },
+    {
+    "name": "Draw",
+    "price": 200
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -120
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 300
+    },
+    {
+    "name": "Draw",
+    "price": 220
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -115
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 370
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -115
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 370
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -115
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 370
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -115
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 370
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -1667
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": -1667
+    },
+    {
+    "name": "Draw",
+    "price": 240
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": 99900
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 450
+    },
+    {
+    "name": "Draw",
+    "price": 260
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Austin FC",
+    "price": -115
+    },
+    {
+    "name": "Colorado Rapids",
+    "price": 350
+    },
+    {
+    "name": "Draw",
+    "price": 180
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "b7e2ee1364a9b05c158381d4dc45dc5a",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:03Z",
+    "home_team": "Seattle Sounders FC",
+    "away_team": "San Jose Earthquakes",
+    "bookmakers": [
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 400
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -130
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 380
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -135
+    },
+    {
+    "name": "Draw",
+    "price": 230
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 400
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -140
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 340
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -142
+    },
+    {
+    "name": "Draw",
+    "price": 285
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 460
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -133
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 500
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -128
+    },
+    {
+    "name": "Draw",
+    "price": 295
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 410
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -145
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 440
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -140
+    },
+    {
+    "name": "Draw",
+    "price": 235
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 320
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -154
+    },
+    {
+    "name": "Draw",
+    "price": 275
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 450
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -143
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 450
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -143
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 450
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -154
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 450
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -143
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "San Jose Earthquakes",
+    "price": 340
+    },
+    {
+    "name": "Seattle Sounders FC",
+    "price": -135
+    },
+    {
+    "name": "Draw",
+    "price": 220
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "469d222f30f9259f9b702b13eaf629cc",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:04Z",
+    "home_team": "Houston Dynamo",
+    "away_team": "LA Galaxy",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 105
+    },
+    {
+    "name": "LA Galaxy",
+    "price": 205
+    },
+    {
+    "name": "Draw",
+    "price": 275
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 800
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -310
+    },
+    {
+    "name": "Draw",
+    "price": 350
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 700
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -290
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 750
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -325
+    },
+    {
+    "name": "Draw",
+    "price": 380
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 650
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -250
+    },
+    {
+    "name": "Draw",
+    "price": 360
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 800
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -310
+    },
+    {
+    "name": "Draw",
+    "price": 425
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 1050
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -385
+    },
+    {
+    "name": "Draw",
+    "price": 450
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 1050
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -385
+    },
+    {
+    "name": "Draw",
+    "price": 450
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 1050
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -385
+    },
+    {
+    "name": "Draw",
+    "price": 450
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 1050
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -385
+    },
+    {
+    "name": "Draw",
+    "price": 450
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 100
+    },
+    {
+    "name": "LA Galaxy",
+    "price": 190
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 840
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -256
+    },
+    {
+    "name": "Draw",
+    "price": 430
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 900
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -244
+    },
+    {
+    "name": "Draw",
+    "price": 460
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Houston Dynamo",
+    "price": 700
+    },
+    {
+    "name": "LA Galaxy",
+    "price": -350
+    },
+    {
+    "name": "Draw",
+    "price": 375
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "249244db9a48e4ea8eb0de723836084b",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:04Z",
+    "home_team": "Los Angeles FC",
+    "away_team": "Nashville SC",
+    "bookmakers": [
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -162
+    },
+    {
+    "name": "Nashville SC",
+    "price": 475
+    },
+    {
+    "name": "Draw",
+    "price": 265
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -165
+    },
+    {
+    "name": "Nashville SC",
+    "price": 470
+    },
+    {
+    "name": "Draw",
+    "price": 240
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -170
+    },
+    {
+    "name": "Nashville SC",
+    "price": 480
+    },
+    {
+    "name": "Draw",
+    "price": 245
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -160
+    },
+    {
+    "name": "Nashville SC",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -192
+    },
+    {
+    "name": "Nashville SC",
+    "price": 470
+    },
+    {
+    "name": "Draw",
+    "price": 310
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -165
+    },
+    {
+    "name": "Nashville SC",
+    "price": 500
+    },
+    {
+    "name": "Draw",
+    "price": 265
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -159
+    },
+    {
+    "name": "Nashville SC",
+    "price": 410
+    },
+    {
+    "name": "Draw",
+    "price": 290
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -159
+    },
+    {
+    "name": "Nashville SC",
+    "price": 410
+    },
+    {
+    "name": "Draw",
+    "price": 290
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -159
+    },
+    {
+    "name": "Nashville SC",
+    "price": 410
+    },
+    {
+    "name": "Draw",
+    "price": 290
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -159
+    },
+    {
+    "name": "Nashville SC",
+    "price": 410
+    },
+    {
+    "name": "Draw",
+    "price": 290
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -213
+    },
+    {
+    "name": "Nashville SC",
+    "price": 475
+    },
+    {
+    "name": "Draw",
+    "price": 300
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -152
+    },
+    {
+    "name": "Nashville SC",
+    "price": 540
+    },
+    {
+    "name": "Draw",
+    "price": 290
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -145
+    },
+    {
+    "name": "Nashville SC",
+    "price": 600
+    },
+    {
+    "name": "Draw",
+    "price": 300
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Los Angeles FC",
+    "price": -160
+    },
+    {
+    "name": "Nashville SC",
+    "price": 425
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "ad1cd50ed35cc03745c1e98cefa8d2a4",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:04Z",
+    "home_team": "Real Salt Lake",
+    "away_team": "Portland Timbers",
+    "bookmakers": [
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1100
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -360
+    },
+    {
+    "name": "Draw",
+    "price": 425
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1000
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -410
+    },
+    {
+    "name": "Draw",
+    "price": 400
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1000
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -375
+    },
+    {
+    "name": "Draw",
+    "price": 375
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1150
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -312
+    },
+    {
+    "name": "Draw",
+    "price": 460
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1250
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -294
+    },
+    {
+    "name": "Draw",
+    "price": 490
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1050
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -454
+    },
+    {
+    "name": "Draw",
+    "price": 470
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 875
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -325
+    },
+    {
+    "name": "Draw",
+    "price": 400
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 900
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -300
+    },
+    {
+    "name": "Draw",
+    "price": 370
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 400
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -175
+    },
+    {
+    "name": "Draw",
+    "price": 260
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1100
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -375
+    },
+    {
+    "name": "Draw",
+    "price": 420
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1100
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -375
+    },
+    {
+    "name": "Draw",
+    "price": 420
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1100
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -370
+    },
+    {
+    "name": "Draw",
+    "price": 420
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1100
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -375
+    },
+    {
+    "name": "Draw",
+    "price": 420
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Portland Timbers",
+    "price": 1000
+    },
+    {
+    "name": "Real Salt Lake",
+    "price": -400
+    },
+    {
+    "name": "Draw",
+    "price": 400
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "06adae1570c7b35480f10c0e76b22eea",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:05Z",
+    "home_team": "FC Dallas",
+    "away_team": "Sporting Kansas City",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -153
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 420
+    },
+    {
+    "name": "Draw",
+    "price": 245
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -390
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1100
+    },
+    {
+    "name": "Draw",
+    "price": 370
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -325
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 950
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -425
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 400
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -330
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 375
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -370
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1100
+    },
+    {
+    "name": "Draw",
+    "price": 400
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -143
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 360
+    },
+    {
+    "name": "Draw",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -360
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -360
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -360
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -357
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -312
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1200
+    },
+    {
+    "name": "Draw",
+    "price": 440
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -286
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1450
+    },
+    {
+    "name": "Draw",
+    "price": 480
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "FC Dallas",
+    "price": -400
+    },
+    {
+    "name": "Sporting Kansas City",
+    "price": 1050
+    },
+    {
+    "name": "Draw",
+    "price": 400
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "4b96c7de6ef7fb1d6929a8a3241d0539",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2022-10-09T21:18:07Z",
+    "home_team": "Minnesota United FC",
+    "away_team": "Vancouver Whitecaps FC",
+    "bookmakers": [
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -335
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 875
+    },
+    {
+    "name": "Draw",
+    "price": 410
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -380
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 1000
+    },
+    {
+    "name": "Draw",
+    "price": 390
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:17Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -350
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 900
+    },
+    {
+    "name": "Draw",
+    "price": 375
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -295
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 850
+    },
+    {
+    "name": "Draw",
+    "price": 370
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -333
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 775
+    },
+    {
+    "name": "Draw",
+    "price": 410
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:40Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -385
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 1050
+    },
+    {
+    "name": "Draw",
+    "price": 440
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -133
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 275
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -312
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 1050
+    },
+    {
+    "name": "Draw",
+    "price": 410
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -278
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 1300
+    },
+    {
+    "name": "Draw",
+    "price": 560
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:18Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Minnesota United FC",
+    "price": -350
+    },
+    {
+    "name": "Vancouver Whitecaps FC",
+    "price": 800
+    },
+    {
+    "name": "Draw",
+    "price": 375
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "8c68fb2a7a3494e132d4cf6faae7b110",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2022-10-09T21:30:35Z",
+    "home_team": "Puebla",
+    "away_team": "Guadalajara",
+    "bookmakers": [
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:28Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 205
+    },
+    {
+    "name": "Puebla",
+    "price": 195
+    },
+    {
+    "name": "Draw",
+    "price": 135
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 195
+    },
+    {
+    "name": "Puebla",
+    "price": 185
+    },
+    {
+    "name": "Draw",
+    "price": 160
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 195
+    },
+    {
+    "name": "Puebla",
+    "price": 185
+    },
+    {
+    "name": "Draw",
+    "price": 160
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 195
+    },
+    {
+    "name": "Puebla",
+    "price": 185
+    },
+    {
+    "name": "Draw",
+    "price": 160
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:28Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 220
+    },
+    {
+    "name": "Puebla",
+    "price": 180
+    },
+    {
+    "name": "Draw",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:28Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 210
+    },
+    {
+    "name": "Puebla",
+    "price": 190
+    },
+    {
+    "name": "Draw",
+    "price": 154
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 220
+    },
+    {
+    "name": "Puebla",
+    "price": 194
+    },
+    {
+    "name": "Draw",
+    "price": 170
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 230
+    },
+    {
+    "name": "Puebla",
+    "price": 210
+    },
+    {
+    "name": "Draw",
+    "price": 182
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:28Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 220
+    },
+    {
+    "name": "Puebla",
+    "price": 200
+    },
+    {
+    "name": "Draw",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:27Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 200
+    },
+    {
+    "name": "Puebla",
+    "price": 190
+    },
+    {
+    "name": "Draw",
+    "price": 155
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Guadalajara",
+    "price": 195
+    },
+    {
+    "name": "Puebla",
+    "price": 175
+    },
+    {
+    "name": "Draw",
+    "price": 135
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "07cb211756501c7e11fb3a5d3891110a",
+    "sport_key": "basketball_nba_preseason",
+    "sport_title": "NBA Preseason",
+    "commence_time": "2022-10-09T22:10:00Z",
+    "home_team": "Toronto Raptors",
+    "away_team": "Chicago Bulls",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 119
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -144
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 114
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:32Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -147
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 148
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -130
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 115
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -149
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 125
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betrivers",
+    "title": "BetRivers",
+    "last_update": "2022-10-09T21:55:14Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -152
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -152
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -152
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -152
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -152
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 120
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -141
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -150
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 130
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -150
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 125
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Chicago Bulls",
+    "price": 127
+    },
+    {
+    "name": "Toronto Raptors",
+    "price": -152
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "4ee31ce50aee8016ffb0b4ab062e31e9",
+    "sport_key": "basketball_nba_preseason",
+    "sport_title": "NBA Preseason",
+    "commence_time": "2022-10-09T23:00:00Z",
+    "home_team": "Oklahoma City Thunder",
+    "away_team": "Maccabi Raanana",
+    "bookmakers": []
+    },
+    {
+    "id": "5787b9f740039ab1a3a885a54f56c80f",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2022-10-09T23:08:00Z",
+    "home_team": "New York Mets",
+    "away_team": "San Diego Padres",
+    "bookmakers": [
+    {
+    "key": "lowvig",
+    "title": "LowVig.ag",
+    "last_update": "2022-10-09T21:57:58Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -135
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:57:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -144
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 122
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:57:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -135
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:55:49Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -140
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 115
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "wynnbet",
+    "title": "WynnBET",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -133
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -135
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:57:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -143
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 120
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "gtbets",
+    "title": "GTbets",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -135
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -140
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 117
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betrivers",
+    "title": "BetRivers",
+    "last_update": "2022-10-09T21:57:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -141
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:57:27Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -139
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 117
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "superbook",
+    "title": "SuperBook",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -133
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 123
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betus",
+    "title": "BetUS",
+    "last_update": "2022-10-09T21:57:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -140
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:57:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -140
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 120
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -148
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -148
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 123
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -141
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:57:55Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -147
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 123
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:57:27Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -128
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 126
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "New York Mets",
+    "price": -127
+    },
+    {
+    "name": "San Diego Padres",
+    "price": 128
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "eb4dc3d41f84f0b7483e44e4ecd0206d",
+    "sport_key": "basketball_nba_preseason",
+    "sport_title": "NBA Preseason",
+    "commence_time": "2022-10-09T23:10:00Z",
+    "home_team": "San Antonio Spurs",
+    "away_team": "New Orleans Pelicans",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -312
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 242
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -265
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 210
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:32Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -238
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 198
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -196
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 235
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -303
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 225
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -325
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betrivers",
+    "title": "BetRivers",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -275
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 215
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -275
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 215
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -275
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 215
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -275
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 215
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -270
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 215
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -286
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 235
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -300
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 240
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -300
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -295
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 245
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "New Orleans Pelicans",
+    "price": -295
+    },
+    {
+    "name": "San Antonio Spurs",
+    "price": 238
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "176f0dc945e4389150b0c82fd51e77ad",
+    "sport_key": "soccer_chile_campeonato",
+    "sport_title": "Primera División - Chile",
+    "commence_time": "2022-10-09T23:15:00Z",
+    "home_team": "Everton de Viña del Mar",
+    "away_team": "Cobresal",
+    "bookmakers": [
+    {
+    "key": "gtbets",
+    "title": "GTbets",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 440
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -158
+    },
+    {
+    "name": "Draw",
+    "price": 285
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 390
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -140
+    },
+    {
+    "name": "Draw",
+    "price": 260
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:57:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 420
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -160
+    },
+    {
+    "name": "Draw",
+    "price": 260
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 370
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -175
+    },
+    {
+    "name": "Draw",
+    "price": 240
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:41Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 420
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -155
+    },
+    {
+    "name": "Draw",
+    "price": 245
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 425
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -150
+    },
+    {
+    "name": "Draw",
+    "price": 280
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "intertops",
+    "title": "Intertops",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 400
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -167
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 425
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -167
+    },
+    {
+    "name": "Draw",
+    "price": 275
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betrivers",
+    "title": "BetRivers",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 425
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -167
+    },
+    {
+    "name": "Draw",
+    "price": 275
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:32Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 470
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -141
+    },
+    {
+    "name": "Draw",
+    "price": 285
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 520
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -133
+    },
+    {
+    "name": "Draw",
+    "price": 310
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:57:42Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 345
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -145
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:57:43Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Cobresal",
+    "price": 425
+    },
+    {
+    "name": "Everton de Viña del Mar",
+    "price": -160
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "9291ba6800662baba3b5779abe3c967e",
+    "sport_key": "soccer_argentina_primera_division",
+    "sport_title": "Primera División - Argentina",
+    "commence_time": "2022-10-09T23:30:00Z",
+    "home_team": "Patronato Parana",
+    "away_team": "River Plate",
+    "bookmakers": [
+    {
+    "key": "superbook",
+    "title": "SuperBook",
+    "last_update": "2022-10-09T21:57:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 295
+    },
+    {
+    "name": "River Plate",
+    "price": -111
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 305
+    },
+    {
+    "name": "River Plate",
+    "price": -118
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "wynnbet",
+    "title": "WynnBET",
+    "last_update": "2022-10-09T21:58:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 310
+    },
+    {
+    "name": "River Plate",
+    "price": -115
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:57:55Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 300
+    },
+    {
+    "name": "River Plate",
+    "price": -121
+    },
+    {
+    "name": "Draw",
+    "price": 260
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 300
+    },
+    {
+    "name": "River Plate",
+    "price": -125
+    },
+    {
+    "name": "Draw",
+    "price": 240
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:57:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 330
+    },
+    {
+    "name": "River Plate",
+    "price": -109
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 380
+    },
+    {
+    "name": "River Plate",
+    "price": -105
+    },
+    {
+    "name": "Draw",
+    "price": 300
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 300
+    },
+    {
+    "name": "River Plate",
+    "price": -115
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:27Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 290
+    },
+    {
+    "name": "River Plate",
+    "price": -110
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 270
+    },
+    {
+    "name": "River Plate",
+    "price": -133
+    },
+    {
+    "name": "Draw",
+    "price": 235
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betrivers",
+    "title": "BetRivers",
+    "last_update": "2022-10-09T21:58:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 310
+    },
+    {
+    "name": "River Plate",
+    "price": -118
+    },
+    {
+    "name": "Draw",
+    "price": 270
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:58:26Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 275
+    },
+    {
+    "name": "River Plate",
+    "price": -116
+    },
+    {
+    "name": "Draw",
+    "price": 250
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "intertops",
+    "title": "Intertops",
+    "last_update": "2022-10-09T21:58:27Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Patronato Parana",
+    "price": 300
+    },
+    {
+    "name": "River Plate",
+    "price": -120
+    },
+    {
+    "name": "Draw",
+    "price": 265
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "ac258fc5be27d39cf6397585885339f4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2022-10-10T00:20:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -159
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "lowvig",
+    "title": "LowVig.ag",
+    "last_update": "2022-10-09T21:58:50Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -160
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:57:20Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -165
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "twinspires",
+    "title": "TwinSpires",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -165
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 135
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -162
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 136
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -161
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "sugarhouse",
+    "title": "SugarHouse",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -159
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betrivers",
+    "title": "BetRivers",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -159
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "barstool",
+    "title": "Barstool Sportsbook",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -165
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 135
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:22Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -166
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 135
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "superbook",
+    "title": "SuperBook",
+    "last_update": "2022-10-09T21:58:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -165
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "draftkings",
+    "title": "DraftKings",
+    "last_update": "2022-10-09T21:58:48Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -165
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betus",
+    "title": "BetUS",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -160
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -170
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:29Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -154
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 152
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -152
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 154
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "gtbets",
+    "title": "GTbets",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -170
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 150
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betmgm",
+    "title": "BetMGM",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -175
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:25Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -164
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 138
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "wynnbet",
+    "title": "WynnBET",
+    "last_update": "2022-10-09T21:58:24Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -169
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 140
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -175
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:23Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -161
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 125
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "intertops",
+    "title": "Intertops",
+    "last_update": "2022-10-09T21:58:22Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Baltimore Ravens",
+    "price": -165
+    },
+    {
+    "name": "Cincinnati Bengals",
+    "price": 145
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "id": "694190e6a03aa941ae42960202d238b7",
+    "sport_key": "basketball_nba_preseason",
+    "sport_title": "NBA Preseason",
+    "commence_time": "2022-10-10T00:40:00Z",
+    "home_team": "Golden State Warriors",
+    "away_team": "Los Angeles Lakers",
+    "bookmakers": [
+    {
+    "key": "mybookieag",
+    "title": "MyBookie.ag",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -238
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 190
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "fanduel",
+    "title": "FanDuel",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -215
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 172
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betfair",
+    "title": "Betfair",
+    "last_update": "2022-10-09T21:58:32Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -227
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 200
+    }
+    ]
+    },
+    {
+    "key": "h2h_lay",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -200
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 230
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "foxbet",
+    "title": "FOX Bet",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -250
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 190
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "pointsbetus",
+    "title": "PointsBet (US)",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -240
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 190
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "unibet",
+    "title": "Unibet",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -213
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 175
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "betonlineag",
+    "title": "BetOnline.ag",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -213
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 180
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "williamhill_us",
+    "title": "William Hill (US)",
+    "last_update": "2022-10-09T21:58:30Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -200
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 170
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "bovada",
+    "title": "Bovada",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -210
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 175
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "key": "circasports",
+    "title": "Circa Sports",
+    "last_update": "2022-10-09T21:58:31Z",
+    "markets": [
+    {
+    "key": "h2h",
+    "outcomes": [
+    {
+    "name": "Golden State Warriors",
+    "price": -239
+    },
+    {
+    "name": "Los Angeles Lakers",
+    "price": 194
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ]
