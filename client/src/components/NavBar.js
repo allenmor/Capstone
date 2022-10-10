@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar({setLoggedUser, loggedUser}) {
+
+  console.log(loggedUser)
+  const [profileClicked, setProfileClicked] = useState(false)
+
   const navigate = useNavigate();
 
   function handleJoinClick() {
@@ -22,7 +26,13 @@ function NavBar({setLoggedUser, loggedUser}) {
     navigate(`/login`);
   }
 
+  function handleProfileClick(){
+    setProfileClicked(prev => !prev)
+  }
 
+  function handleAddMoneyClick() {
+    navigate(`/addfunds`);
+  }
   return (
     <div className="nav-container">
       <div>
@@ -37,8 +47,20 @@ function NavBar({setLoggedUser, loggedUser}) {
         <p onClick={handleJoinClick} className="join-btn">Join Now</p>
       </div> :
       <div className='log-join-div'>
-        <img className="user-image" src={loggedUser.image}/>
-        <p>{loggedUser.name}</p>
+        <img onClick={handleProfileClick} className="user-image" src={loggedUser.image}/>
+        <p onClick={handleProfileClick}>{loggedUser.name}</p>
+        <div className="profile-div" style={profileClicked ? {display: ''} : {display:'none'}}>
+          <h1 style={{}}>{loggedUser.name}</h1>
+          <p>${loggedUser.balance}</p>
+          <p>Playable Balance</p>
+          <div className="add-withdraw-div">
+          <p onClick={handleAddMoneyClick} className="add-money-btn">Add Funds</p>
+          <p className="withdraw-btn">Withdraw Funds</p>
+          </div>
+          <p>Transaction History</p>
+          <p>Help and Support</p>
+          <p className="log-out-in-profile">Log Out</p>
+        </div>
         <div className="balance-div">
          <p>{`$${loggedUser.balance}`}</p> 
          <p className="balance-word">Balance</p>

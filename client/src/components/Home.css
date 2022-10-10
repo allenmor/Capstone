@@ -1,11 +1,15 @@
 .home-div {
     display: flex;
 }
+.home-card-div {
+    width: 60vw;
+}
 
 .each-game {
     border: 2px solid black;
     padding: 1vw;
     margin: 2vh;
+    overflow-x: scroll;
 }
 
 .home-at-away {
@@ -15,4 +19,36 @@
 .sports-title {
     background-color: rgb(245,248,252);
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ads-div {
+    display: flex;
+    overflow-x: scroll;
+    border: 2px solid black;
+    margin: 2vh;
+
+}
+
+.images-front {
+    margin: 1vw;
+    width: 32vw;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bet-num {
+    background-color: rgb(233,236,239);
+    border-radius: 5px;
+}
+
+.best-bet {
+    background-color: rgb(244,193,85);
+    border-radius: 5px;
+}
+
+.table-header {
+    writing-mode: vertical-rl;
 }

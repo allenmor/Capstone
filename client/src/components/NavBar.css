@@ -60,6 +60,7 @@
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .balance-div {
@@ -75,4 +76,49 @@
 .balance-word {
     font-weight: normal;
     font-size: 1.5vw;
+}
+
+.profile-div {
+    position: absolute;
+    border: 3px solid red;
+    margin-top: 72vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 35vh;
+    flex-direction: column;
+}
+
+.profile-div h1 {
+    color: black;
+}
+
+.profile-div p{
+    color: black;
+}
+.add-withdraw-div {
+    display: flex;
+}
+.add-withdraw-div p{
+        border-radius: 5px;
+        height: 5vh;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 5vh;
+        width:10vw;
+}
+
+.add-money-btn{
+    background-color: rgb(25,169,78);
+    margin-right: 2vw;
+}
+
+.withdraw-btn {
+    margin-right: 2vw;
+    background-color: rgb(20,137,239);
+}
+
+.profile-div .log-out-in-profile {
+    color: red;
 }

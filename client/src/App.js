@@ -4,6 +4,7 @@ import Home from './components/Home';
 import LogIn from './components/LogIn';
 import NavBar from './components/NavBar';
 import { useEffect, useState } from 'react';
+import AddMoney from './components/AddMoney';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -47,6 +48,12 @@ function App() {
         <>
         <NavBar/>
         <LogIn setUserSignedUp={setUserSignedUp}/>
+        </>
+      }/>
+      <Route path='/addfunds' element={
+        <>
+         <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <AddMoney />
         </>
       }/>
     </Routes>
