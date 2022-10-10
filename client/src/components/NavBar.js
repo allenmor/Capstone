@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 function NavBar({setLoggedUser, loggedUser}) {
 
-  console.log(loggedUser)
+
   const [profileClicked, setProfileClicked] = useState(false)
 
   const navigate = useNavigate();
@@ -15,6 +15,7 @@ function NavBar({setLoggedUser, loggedUser}) {
   }
   function handleHomeClick() {
     navigate('/')
+    setProfileClicked(false)
   }
 
   function handleLogOut() {
@@ -32,6 +33,7 @@ function NavBar({setLoggedUser, loggedUser}) {
 
   function handleAddMoneyClick() {
     navigate(`/addfunds`);
+    setProfileClicked(false)
   }
   return (
     <div className="nav-container">

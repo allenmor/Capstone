@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   const [loggedUser, setLoggedUser] = useState({name: ''})
   const [userSignedUp, setUserSignedUp] = useState(false)
+  const [moneyAddedClicked, setMoneyAddedClicked] = useState(false)
 
   useEffect(() => {
     let token = sessionStorage.getItem('jwt')
@@ -22,10 +23,11 @@ function App() {
         })
         .then(res => res.json())
         .then(data => {
+          console.log(data)
              setLoggedUser(data)
           })
         }
-      },[userSignedUp])
+      },[userSignedUp, moneyAddedClicked])
 
 
 
@@ -53,7 +55,7 @@ function App() {
       <Route path='/addfunds' element={
         <>
          <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
-        <AddMoney />
+        <AddMoney setMoneyAddedClicked={setMoneyAddedClicked}/>
         </>
       }/>
     </Routes>
