@@ -3,7 +3,8 @@
     justify-content: space-between;
     background-color: rgb(31,55,91);
     align-items: center;
-    
+    position: sticky;
+    top: 0;
 }
 
 .nav-container div {

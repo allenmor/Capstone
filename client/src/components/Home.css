@@ -1,0 +1,18 @@
+.home-div {
+    display: flex;
+}
+
+.each-game {
+    border: 2px solid black;
+    padding: 1vw;
+    margin: 2vh;
+}
+
+.home-at-away {
+    display: flex;
+}
+
+.sports-title {
+    background-color: rgb(245,248,252);
+    font-weight: 600;
+}

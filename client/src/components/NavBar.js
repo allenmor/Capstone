@@ -22,7 +22,7 @@ function NavBar({setLoggedUser, loggedUser}) {
     navigate(`/login`);
   }
 
-  console.log(sessionStorage.getItem('jwt'))
+
   return (
     <div className="nav-container">
       <div>
