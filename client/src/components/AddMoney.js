@@ -17,7 +17,40 @@ function AddMoney() {
         </div>
         <div className='new-method'>
             <p>Add new method</p>
+
         </div>
+        <div class="container">
+        <form>
+             <div class="wrapper"> 
+             <div class="outer-card"> 
+             <div class="forms"> 
+             <div class="input-items">
+
+                  <span>Card Number</span> 
+                  <input placeholder=".... .... .... ...." data-slots="." data-accept="\d" size="19"/> 
+                  </div>
+                   <div class="input-items">
+                   <span>Name on card</span>
+                   <input placeholder="Samuel Iscon" />
+                    </div> 
+                   <div class="one-line"> 
+                   <div class="input-items"> 
+                   <span>Expiry Date</span>
+                    <input placeholder="mm/yyyy" data-slots="my"/> 
+                    </div>
+                     <div class="input-items">
+                          <span>CVV</span> 
+                          <input placeholder="..." data-slots="." data-accept="\d" size="3"/> 
+                          </div> 
+                          </div> 
+                          <div class="input-buttons">
+                               <input type='submit' />
+                                </div>
+                                 </div> 
+                                 </div> 
+                                 </div> 
+                                 </form>
+                                 </div>
         </div>
     </div>
   )
