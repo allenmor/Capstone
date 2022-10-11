@@ -51,8 +51,8 @@ function NavBar({setLoggedUser, loggedUser}) {
       <div className='log-join-div'>
         <img onClick={handleProfileClick} className="user-image" src={loggedUser.image}/>
         <p onClick={handleProfileClick}>{loggedUser.name}</p>
-        {
-        <div className="profile-div" style={profileClicked ? {display: ''} : {display:'none'}}>
+        { profileClicked ? 
+        <div className="profile-div">
           <h1 style={{}}>{loggedUser.name}</h1>
           <p>${loggedUser.balance}</p>
           <p>Playable Balance</p>
@@ -62,8 +62,8 @@ function NavBar({setLoggedUser, loggedUser}) {
           </div>
           <p>Transaction History</p>
           <p>Help and Support</p>
-          <p className="log-out-in-profile">Log Out</p>
-        </div>
+          <p onClick={handleLogOut} className="log-out-in-profile">Log Out</p>
+        </div> : <></>
         }
         <div className="balance-div">
          <p>{`$${loggedUser.balance}`}</p> 

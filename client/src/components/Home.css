@@ -42,11 +42,14 @@
 .bet-num {
     background-color: rgb(233,236,239);
     border-radius: 5px;
+    height: 5rem;
+
 }
 
 .best-bet {
     background-color: rgb(244,193,85);
     border-radius: 5px;
+    height: 5rem;
 }
 
 .table-header {

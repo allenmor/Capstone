@@ -15,7 +15,7 @@ class CardsController < ApplicationController
         user = User.find_by!(id: user_id)
         user.update(balance: User.find_by!(id: user_id).balance + params[:amount].to_i)
 
-        render json: card
+        render json: user
     end
 
     private

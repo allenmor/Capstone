@@ -39,6 +39,9 @@ function Home() {
         return <HomeCard game={el} key={i} />
       })}
       </div>
+      <div>
+        <h1>Bet Slip</h1>
+      </div>
     </div>
   )
 }

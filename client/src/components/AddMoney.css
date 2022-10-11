@@ -33,9 +33,10 @@
 
 .wrapper {
     width: 30vw;
-    height: 41vh;
+    height: 52vh;
     position: relative;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-bottom: 5vh;
 }
 
 .outer-card {

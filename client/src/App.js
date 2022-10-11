@@ -27,7 +27,7 @@ function App() {
              setLoggedUser(data)
           })
         }
-      },[userSignedUp, moneyAddedClicked])
+      },[userSignedUp])
 
 
 
@@ -55,7 +55,7 @@ function App() {
       <Route path='/addfunds' element={
         <>
          <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
-        <AddMoney setMoneyAddedClicked={setMoneyAddedClicked}/>
+        <AddMoney setLoggedUser={setLoggedUser}/>
         </>
       }/>
     </Routes>

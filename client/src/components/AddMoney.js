@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./AddMoney.css";
 import { useNavigate } from "react-router-dom";
 
-function AddMoney({setMoneyAddedClicked}) {
+function AddMoney({setLoggedUser}) {
     const navigate = useNavigate();
     let initialCard = {
         name: '',
@@ -14,7 +14,7 @@ function AddMoney({setMoneyAddedClicked}) {
         amount: ''
     }
     const [cardInfo, setCardInfo] = useState(initialCard)
-
+    
     function handleCardChange(e) {
         setCardInfo({
             ...cardInfo,
@@ -33,8 +33,8 @@ function AddMoney({setMoneyAddedClicked}) {
         })
         .then(res => res.json())
         .then(data => {
+            setLoggedUser(data)
         })
-        setMoneyAddedClicked(prev => !prev)
         navigate(`/`);
     }
 
