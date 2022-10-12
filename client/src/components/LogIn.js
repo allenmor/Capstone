@@ -19,7 +19,7 @@ function LogIn({setUserSignedUp}) {
 
     function handleSignUpSubmit(e){
         e.preventDefault()
-        fetch('http://127.0.0.1:3000/login',{
+        fetch('/login',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

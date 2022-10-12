@@ -1,10 +1,9 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import "./AddMoney.css";
-import { useNavigate } from "react-router-dom";
-import UserCards from "./UserCards";
+import React from 'react'
+import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import WithdrawUserCard from './WithdrawUserCard';
 
-function AddMoney({setLoggedUser}) {
+function WithdrawMoney({setLoggedUser, loggedUser}) {
     const navigate = useNavigate();
     const [userCards, setUserCards] = useState([])
     let initialCard = {
@@ -25,19 +24,33 @@ function AddMoney({setLoggedUser}) {
     }
     function handleAddCardSubmit(e) {
         e.preventDefault()
-        fetch('/cards', {
-            method: 'POST',
-            headers: {
-                token: sessionStorage.getItem('jwt'),
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(cardInfo)
-        })
-        .then(res => res.json())
-        .then(data => {
-            setLoggedUser(data)
-        })
-        navigate(`/`);
+        console.log(loggedUser)
+        console.log(cardInfo)
+        if(cardInfo.amount < loggedUser.balance) {
+
+            fetch('/withdrawcards', {
+                method: 'PATCH',
+                headers: {
+                    token: sessionStorage.getItem('jwt'),
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(cardInfo)
+            })
+            .then(res => res.json())
+            .then(data => {
+                setLoggedUser(data)
+            })
+            // navigate(`/`);
+        } else {
+            setCardInfo({
+                name: '',
+                company: '',
+                number: '',
+                exp: '',
+                code: '',
+                amount: loggedUser.balance
+            })
+        }
     }
 
 
@@ -52,34 +65,23 @@ function AddMoney({setLoggedUser}) {
     .then(res => res.json())
     .then(data => {
         setUserCards(data)
-
+        console.log(data)
     })
     },[])
   return (
     <div className="add-money-div">
-      <h1>Add Funds</h1>
+      <h1>Withdraw Funds</h1>
       <div className="transaction-div">
-        <div className="credit-cards-div">
-          <p>
-            Credit Card deposits are not available at this time, any previously
-            saved Credit Cards are not available.
-          </p>
-        </div>
-        <div className="any-funds">
-          <p>
-            Any funds you deposit here can be used in Sportsbook and Casino.
-          </p>
-        </div>
+          <p>Saved withdrawal methods</p>
         <div className="saved">
-          <p>Saved deposit methods</p>
           <div className="saved-card-container">
           {userCards.map((el, i) => {
-              return <UserCards setLoggedUser={setLoggedUser} card={el} key={i}/>
+              return <WithdrawUserCard loggedUser={loggedUser} setLoggedUser={setLoggedUser} card={el} key={i}/>
           })}
           </div>
         </div>
         <div className="new-method">
-          <p>Add new method</p>
+          <p>Or choose another method</p>
         </div>
         <div className="container">
           <form className="add-form" onSubmit={handleAddCardSubmit}>
@@ -155,4 +157,4 @@ function AddMoney({setLoggedUser}) {
   );
 }
 
-export default AddMoney;
+export default WithdrawMoney

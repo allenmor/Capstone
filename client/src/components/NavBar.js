@@ -35,6 +35,12 @@ function NavBar({setLoggedUser, loggedUser}) {
     navigate(`/addfunds`);
     setProfileClicked(false)
   }
+
+  function handleWithdrawClick() {
+    navigate(`/withdrawmoney`);
+    setProfileClicked(false)
+
+  }
   return (
     <div className="nav-container">
       <div>
@@ -58,7 +64,7 @@ function NavBar({setLoggedUser, loggedUser}) {
           <p>Playable Balance</p>
           <div className="add-withdraw-div">
           <p onClick={handleAddMoneyClick} className="add-money-btn">Add Funds</p>
-          <p className="withdraw-btn">Withdraw Funds</p>
+          <p onClick={handleWithdrawClick} className="withdraw-btn">Withdraw Funds</p>
           </div>
           <p>Transaction History</p>
           <p>Help and Support</p>

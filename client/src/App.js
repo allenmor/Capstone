@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import { useEffect, useState } from 'react';
 import AddMoney from './components/AddMoney';
 import { Routes, Route } from 'react-router-dom';
+import WithdrawMoney from './components/WithdrawMoney';
 
 function App() {
   const [loggedUser, setLoggedUser] = useState({name: ''})
@@ -15,7 +16,7 @@ function App() {
   useEffect(() => {
     let token = sessionStorage.getItem('jwt')
     if(token && !loggedUser.name) {
-        fetch('http://127.0.0.1:3000/me', {
+        fetch('/me', {
             headers: {
                 token: token,
                 'Content-Type': 'application/json'
@@ -23,7 +24,6 @@ function App() {
         })
         .then(res => res.json())
         .then(data => {
-          console.log(data)
              setLoggedUser(data)
           })
         }
@@ -58,7 +58,14 @@ function App() {
         <AddMoney setLoggedUser={setLoggedUser}/>
         </>
       }/>
+      <Route path='/withdrawmoney' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <WithdrawMoney loggedUser={loggedUser} setLoggedUser={setLoggedUser}/>
+        </>
+      }/>
     </Routes>
+    
     </>
   );
 }

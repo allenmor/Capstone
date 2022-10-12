@@ -14,12 +14,15 @@ function Home() {
   .then(res =>res.json())
   .then(data => {
     setGames(data)
+    console.log(data)
   })
   },[])
 
   let trueGames = games.filter((el, i) => {
     return el.bookmakers.length > 0
   })
+
+
 
   return (
     <div className='home-div'>

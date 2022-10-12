@@ -61,6 +61,23 @@ class UsersController < ApplicationController
     def destroy
       @user.destroy
     end
+
+    def add_money 
+      token = request.headers['token']
+      user_id = decode(token)
+      user = User.find_by!(id: user_id)
+      user.update(balance: user.balance + params[:balance].to_i)
+      render json: user
+    
+  end
+    def withdraw_money 
+      token = request.headers['token']
+      user_id = decode(token)
+      user = User.find_by!(id: user_id)
+      user.update(balance: user.balance - params[:balance].to_i)
+      render json: user
+    
+  end
   
     private
       # Use callbacks to share common setup or constraints between actions.
