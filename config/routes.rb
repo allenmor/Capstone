@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   patch '/withdrawcards', to: 'cards#user_withdraw_cards'
   patch '/addMoney', to: 'users#add_money'
   patch '/withdrawmoney', to: 'users#withdraw_money'
+  patch '/blackjackstart', to: 'users#blackjack_start'
+  patch '/blackjackfinish', to: 'users#blackjack_finish'
 end

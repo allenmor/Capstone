@@ -29,6 +29,9 @@
 .home-btn:hover {
     text-decoration: underline;
 }
+.my-bets {
+    margin-right: 2vh;
+}
 .my-bets:hover {
     text-decoration: underline;
 }

@@ -14,7 +14,6 @@ function Home() {
   .then(res =>res.json())
   .then(data => {
     setGames(data)
-    console.log(data)
   })
   },[])
 

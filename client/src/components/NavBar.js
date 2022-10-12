@@ -1,6 +1,7 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 import "./NavBar.css";
 
 function NavBar({setLoggedUser, loggedUser}) {
@@ -41,12 +42,17 @@ function NavBar({setLoggedUser, loggedUser}) {
     setProfileClicked(false)
 
   }
+  function handleLiveCasinoClick() {
+    navigate(`/livecasino`);
+    setProfileClicked(false)
+  }
   return (
     <div className="nav-container">
       <div>
         <p className="logo">Sports Book</p>
         <p onClick={handleHomeClick} className="home-btn">Home</p>
         <p className="my-bets">My Bets</p>
+        <p onClick={handleLiveCasinoClick} className="my-bets">Live Casino</p>
       </div>
       {
         sessionStorage.getItem('jwt') == null || sessionStorage.getItem('jwt') == 'undefined'?

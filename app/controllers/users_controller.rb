@@ -78,6 +78,24 @@ class UsersController < ApplicationController
       render json: user
     
   end
+
+  # MINUS BALANCE
+  def blackjack_start
+    token = request.headers['token']
+    user_id = decode(token)
+    user = User.find_by!(id: user_id)
+    user.update(balance: user.balance - params[:balance].to_i)
+    render json: user
+  end
+
+  # PLUS BALANCE 
+  def blackjack_finish
+    token = request.headers['token']
+    user_id = decode(token)
+    user = User.find_by!(id: user_id)
+    user.update(balance: user.balance + params[:balance].to_i)
+    render json: user
+  end
   
     private
       # Use callbacks to share common setup or constraints between actions.

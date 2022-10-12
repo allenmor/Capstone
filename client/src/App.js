@@ -7,6 +7,8 @@ import { useEffect, useState } from 'react';
 import AddMoney from './components/AddMoney';
 import { Routes, Route } from 'react-router-dom';
 import WithdrawMoney from './components/WithdrawMoney';
+import LiveCasino from './components/LiveCasino';
+import BlackJack from './components/BlackJack';
 
 function App() {
   const [loggedUser, setLoggedUser] = useState({name: ''})
@@ -28,9 +30,6 @@ function App() {
           })
         }
       },[userSignedUp])
-
-
-
   return (
     <>
     <Routes>
@@ -64,8 +63,19 @@ function App() {
         <WithdrawMoney loggedUser={loggedUser} setLoggedUser={setLoggedUser}/>
         </>
       }/>
+    <Route path='/livecasino' element={
+        <>
+        <NavBar loggedUser={loggedUser}/>
+        <LiveCasino />
+        </>
+      }/>
+    <Route path='/blackjack' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <BlackJack setLoggedUser={setLoggedUser} loggedUser={loggedUser}/>
+        </>
+      }/>
     </Routes>
-    
     </>
   );
 }
