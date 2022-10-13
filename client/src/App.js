@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import WithdrawMoney from './components/WithdrawMoney';
 import LiveCasino from './components/LiveCasino';
 import BlackJack from './components/BlackJack';
+import Roulette from './components/Roulette';
 
 function App() {
   const [loggedUser, setLoggedUser] = useState({name: ''})
@@ -73,6 +74,12 @@ function App() {
         <>
         <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
         <BlackJack setLoggedUser={setLoggedUser} loggedUser={loggedUser}/>
+        </>
+      }/>
+    <Route path='/roulette' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <Roulette setLoggedUser={setLoggedUser} loggedUser={loggedUser}/>
         </>
       }/>
     </Routes>

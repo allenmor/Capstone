@@ -7,8 +7,9 @@ function LiveCasino() {
     }
 
     function handleRouletteClick(){
-        navigate('roulette')
+        navigate(`/roulette`);
     }
+
   return (
     <div>
         <h1 onClick={handleBjClick}>BlackJack</h1>
