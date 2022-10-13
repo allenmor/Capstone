@@ -2,6 +2,7 @@ import './App.css';
 import Join from './components/Join';
 import Home from './components/Home';
 import LogIn from './components/LogIn';
+import MyBets from './components/MyBets';
 import NavBar from './components/NavBar';
 import { useEffect, useState } from 'react';
 import AddMoney from './components/AddMoney';
@@ -80,6 +81,12 @@ function App() {
         <>
         <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
         <Roulette setLoggedUser={setLoggedUser} loggedUser={loggedUser}/>
+        </>
+      }/>
+    <Route path='/mybets' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <MyBets setLoggedUser={setLoggedUser} loggedUser={loggedUser}/>
         </>
       }/>
     </Routes>

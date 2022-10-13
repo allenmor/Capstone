@@ -161,7 +161,8 @@ function Roulette({ loggedUser, setLoggedUser }) {
         })
         .then(res => res.json())
         .then(data => {
-            setLoggedUser(data)
+          console.log('reset', data)
+          setLoggedUser(data)
         })
         setChipCount(chipCount + pendingTotalBet);
       }
@@ -169,6 +170,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
       if (isSpinComplete && totalAmountWon === 0 && chipCount === 0) {
         setIsSpinComplete(false);
         setChipCount(loggedUser.balance);
+        console.log(loggedUser.balance)
       }
       setRecentBets([]);
     };

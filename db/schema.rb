@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_10_190043) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_13_154503) do
+  create_table "bets", force: :cascade do |t|
+    t.integer "game_id"
+    t.integer "user_id"
+    t.integer "bet_amount"
+    t.integer "payout"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "cards", force: :cascade do |t|
     t.string "name"
     t.string "company"
@@ -22,6 +31,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_10_190043) do
     t.integer "user_id"
   end
 
+  create_table "games", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "password_digest"
@@ -30,4 +45,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_10_190043) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
 end

@@ -86,7 +86,7 @@ export default function BettingOptions({
         return "black-wheel-number";
       default:
         console.log(
-          "Something went wrong in BettingOptions.js > WhatColorNumber()"
+          " "
         );
         break;
     }

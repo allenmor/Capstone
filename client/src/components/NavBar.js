@@ -46,12 +46,16 @@ function NavBar({setLoggedUser, loggedUser}) {
     navigate(`/livecasino`);
     setProfileClicked(false)
   }
+  function handleMyBetsClick() {
+    navigate(`/mybets`);
+    setProfileClicked(false)
+  }
   return (
     <div className="nav-container">
       <div>
         <p className="logo">Sports Book</p>
         <p onClick={handleHomeClick} className="home-btn">Home</p>
-        <p className="my-bets">My Bets</p>
+        <p onClick={handleMyBetsClick} className="my-bets">My Bets</p>
         <p onClick={handleLiveCasinoClick} className="my-bets">Live Casino</p>
       </div>
       {

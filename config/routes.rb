@@ -9,4 +9,8 @@ Rails.application.routes.draw do
   patch '/withdrawmoney', to: 'users#withdraw_money'
   patch '/blackjackstart', to: 'users#blackjack_start'
   patch '/blackjackfinish', to: 'users#blackjack_finish'
+  post '/blackjackbet', to: 'bets#blackjack_bet'
+  patch '/blackjackdouble', to: 'bets#blackjack_double'
+  patch '/blackjackoutcome', to: 'bets#blackjack_outcome'
+  get '/betsforuser', to: 'bets#bets_for_user'
 end

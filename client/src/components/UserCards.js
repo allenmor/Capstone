@@ -22,7 +22,6 @@ function UserCards({card, setLoggedUser}) {
             ...balanceAmount,
             [e.target.name]: e.target.value
         })
-        console.log(balanceAmount)
     }
     function handleCardSubmit(e) {
         e.preventDefault()

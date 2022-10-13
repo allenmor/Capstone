@@ -102,7 +102,6 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         setChipCount(loggedUser.balance)
     }, [loggedUser])
     
-    console.log(chipCount)
     const startHand = () => {
       if (isHandComplete && lockedBet > 0) {
         shuffleDeck();
@@ -127,6 +126,19 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
+          fetch('/blackjackbet', {
+            method: 'POST',
+            headers: {
+                token: sessionStorage.getItem('jwt'),
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({bet_amount: lockedBet})
+        })
+        .then(res => res.json())
+        .then(data => {
+          console.log('initial bet', data)
+        })
+
         setChipCount(chipCount - lockedBet);
         setLockedBet(0);
         setDidDouble(false);
@@ -248,6 +260,20 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
+        fetch('/blackjackbet', {
+          method: 'POST',
+          headers: {
+              token: sessionStorage.getItem('jwt'),
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({bet_amount: previousBet})
+      })
+      .then(res => res.json())
+      .then(data => {
+        console.log('same bet', data)
+      })
+
+
         setChipCount(chipCount - previousBet);
         setDidDouble(false);
       }
@@ -276,6 +302,19 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
+        fetch('/blackjackdouble', {
+          method: 'PATCH',
+          headers: {
+              token: sessionStorage.getItem('jwt'),
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({double_amount: previousBet})
+      })
+      .then(res => res.json())
+      .then(data => {
+        console.log('double', data)
+      })
+
         setChipCount(chipCount - previousBet);
       }
     };
@@ -442,6 +481,18 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
+            fetch('/blackjackoutcome', {
+              method: 'PATCH',
+              headers: {
+                  token: sessionStorage.getItem('jwt'),
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({payout: previousBet * 4})
+          })
+          .then(res => res.json())
+          .then(data => {
+            console.log('double and won', data)
+          })
           setChipCount(chipCount + previousBet * 4);
         } else {
             fetch('/blackjackfinish', {
@@ -456,6 +507,18 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
+            fetch('/blackjackoutcome', {
+              method: 'PATCH',
+              headers: {
+                  token: sessionStorage.getItem('jwt'),
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({payout: previousBet * 2})
+          })
+          .then(res => res.json())
+          .then(data => {
+            console.log('player wins normal amount', data.payout)
+          })
           setChipCount(chipCount + previousBet * 2);
         }
       }
@@ -472,6 +535,18 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
+        fetch('/blackjackoutcome', {
+          method: 'PATCH',
+          headers: {
+              token: sessionStorage.getItem('jwt'),
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({payout: previousBet * 2.5})
+      })
+      .then(res => res.json())
+      .then(data => {
+        console.log('player hits blackjack', data)
+      })
         setChipCount(chipCount + previousBet * 2.5);
       }
       if (winner === "push") {
@@ -488,6 +563,18 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
+            fetch('/blackjackoutcome', {
+              method: 'PATCH',
+              headers: {
+                  token: sessionStorage.getItem('jwt'),
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({payout: previousBet * 2})
+          })
+          .then(res => res.json())
+          .then(data => {
+            console.log('double push', data)
+          })
           setChipCount(chipCount + previousBet * 2);
         } else {
             fetch('/blackjackfinish', {
@@ -502,6 +589,18 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
+            fetch('/blackjackoutcome', {
+              method: 'PATCH',
+              headers: {
+                  token: sessionStorage.getItem('jwt'),
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({payout: previousBet})
+          })
+          .then(res => res.json())
+          .then(data => {
+            console.log('double no push', data)
+          })
           setChipCount(chipCount + previousBet);
         }
       }
