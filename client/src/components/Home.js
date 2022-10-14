@@ -3,10 +3,19 @@ import Popular from './Popular'
 import { useEffect, useState } from 'react'
 import HomeCard from './HomeCard'
 import './Home.css'
+import BetSlip from './BetSlip'
 
 function Home() {
 
   const [games, setGames] = useState([])
+  const [userSignedUp, setUserSignedUp] = useState(false)
+  const [moneyAddedClicked, setMoneyAddedClicked] = useState(false)
+  const [currGame, setCurrGame] = useState({})
+  const [currAwayGame, setCurrAwayGame] = useState({})
+
+  const currDate = new Date().toLocaleDateString();
+  const currTime = new Date().toLocaleTimeString();
+
 
 
   useEffect(()=>{
@@ -38,12 +47,10 @@ function Home() {
       <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/9/8/2022-09-08_20-45-55_624x220.jpg'/>
       </div>
       {trueGames.map((el, i) => {
-        return <HomeCard game={el} key={i} />
+        return <HomeCard setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} game={el} key={i} />
       })}
       </div>
-      <div>
-        <h1>Bet Slip</h1>
-      </div>
+        <BetSlip currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
     </div>
   )
 }

@@ -14,12 +14,16 @@
     align-items: center
     
 }
+
+
 .nav-container div p {
     cursor: pointer;
 }
 
 .home-btn {
     margin-right: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .log-btn {
     margin-right: 2vw;
@@ -31,6 +35,8 @@
 }
 .my-bets {
     margin-right: 2vh;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .my-bets:hover {
     text-decoration: underline;
@@ -38,15 +44,18 @@
 .logo {
     margin-right: 6vw;
     margin-left: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .log-join-div p{
     border-radius: 5px;
-    height: 5vh;
     text-align: center;
     vertical-align: middle;
     line-height: 5vh;
     width: 9vw;
+    line-height: 1;
+    padding: 0.5vh 0;
 }
 
 .join-btn {
@@ -57,11 +66,14 @@
 .log-out-btn {
     background-color: rgb(25,169,78);
     margin-right: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+
 .user-image {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -69,7 +81,8 @@
 .balance-div {
     display: flex;
     flex-direction: column;
-    height: 9vh;
+    height: 7vh;
+    justify-content: center
 }
 
 .balance-div p {
@@ -79,18 +92,19 @@
 .balance-word {
     font-weight: normal;
     font-size: 1.5vw;
+    margin-top: -30vw;
 }
 
 .profile-div {
     position: absolute;
     border: 3px solid red;
-    margin-top: 72vh;
     background-color: rgb(255,255,255);
     display: flex;
     overflow: hidden;
     white-space: nowrap;
     width: 35vh;
     flex-direction: column;
+    z-index: 100;
 }
 
 .profile-div h1 {
@@ -124,4 +138,63 @@
 
 .profile-div .log-out-in-profile {
     color: red;
+}
+
+.green-nav-container {
+    display: flex;
+    background-color: rgb(20,147,255);
+    justify-content: flex-start;
+
+}
+
+.green-nav-container p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.green-logo {
+    margin-right: 6vw;
+    margin-left: 2vw;
+
+}
+.blue-casino-logo {
+    margin-right: 6vw;
+    margin-left: 2vw;
+    background-color: rgb(30,54,91);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 1.8vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.blackjack-nav-btn {
+    margin-right: 2vw;
+}
+
+.whole-nav {
+    position: sticky;
+    top: 0;
+}
+
+.green-dolla {
+    color: green;
+}
+
+.green-nav-with-words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20,147,255);
+
+}
+
+.if-you {
+    font-size: 0.7rem;
+    color: white ;
+    margin-right: 1vw;
+}
+
+.balance-word {
+    font-size: 0.8rem;
 }

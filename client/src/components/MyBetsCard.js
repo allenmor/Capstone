@@ -2,12 +2,14 @@ import React from 'react'
 import './MyBets.css'
 function MyBetsCard({bet}) {
   return (
-    <div className='each-bet'>
-        <p>Blackjack</p>
-        <p><b>time:</b> {bet.updated_at}</p>
-        <p><b>bet:</b> amount{bet.bet_amount}</p>
-        <p><b>payout:</b> {bet.payout}</p>
-    </div>
+
+        <tr>
+          <td>{bet.add_game_name.name}</td>
+          <td>{bet.updated_at}</td>
+          <td>${bet.bet_amount}</td>
+          <td>{(bet.payout / bet.bet_amount).toFixed(2)}x</td>
+          <td>{bet.payout}</td>
+        </tr>
   )
 }
 

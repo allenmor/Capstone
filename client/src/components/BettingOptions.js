@@ -13,6 +13,7 @@ import FiveHundredK from "../images/500k-chip.png";
 import OneMillion from "../images/1m-chip.png";
 import SpinCircle from "../images/spin-circle.png";
 import Wheel from "../images/roulette-wheel.png";
+import { useEffect } from "react";
 
 export default function BettingOptions({
   chipCount,
@@ -40,6 +41,43 @@ export default function BettingOptions({
       setCurrentBetValue(0);
     }
   };
+
+  if(isWheelSpinning) {
+    fetch('/roulettebet', {
+      method: 'POST',
+      headers: {
+          token: sessionStorage.getItem('jwt'),
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({bet_amount: pendingTotalBet})
+  })
+  .then(res => res.json())
+  .then(data => {
+    console.log('roulettet', data)
+  })
+  }
+
+  console.log('dsafdsafdsaf',totalAmountWon)
+
+  useEffect(()=>{
+  
+    if(totalAmountWon > 0) {
+      fetch('/roulettewon', {
+        method: 'PATCH',
+        headers: {
+            token: sessionStorage.getItem('jwt'),
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({payout: totalAmountWon})
+    })
+    .then(res => res.json())
+    .then(data => {
+      console.log('wonroul', data)
+    })
+    }
+  },[totalAmountWon])
+
+
 
   const whatColorNumber = () => {
     switch (winningNumber) {

@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: sticky;
-    top: 8.9vh;
+    position: fixed;
+    border-left: none;
+    z-index: -1;
 }
 
 .popular-div p {

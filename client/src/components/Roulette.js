@@ -19,6 +19,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
     });
 
     useEffect(() => {
+      console.log('user balance after putting chip',loggedUser.balance)
         setChipCount(loggedUser.balance)
     }, [loggedUser])
     const [splits, setSplits] = useState({
@@ -161,7 +162,6 @@ function Roulette({ loggedUser, setLoggedUser }) {
         })
         .then(res => res.json())
         .then(data => {
-          console.log('reset', data)
           setLoggedUser(data)
         })
         setChipCount(chipCount + pendingTotalBet);
@@ -319,6 +319,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
     .then(data => {
         setLoggedUser(data)
     })
+      console.log('undefined', betValue)
       setChipCount(chipCount + betValue);
       setPendingTotalBet(pendingTotalBet - betValue);
       let newRecentBets = recentBets.splice(0, recentBets.length - 1);
@@ -344,6 +345,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
+        console.log(totalAmountWon)
         setChipCount(chipCount + totalAmountWon);
       }
       resetLayout();

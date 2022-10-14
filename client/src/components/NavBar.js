@@ -6,7 +6,7 @@ import "./NavBar.css";
 
 function NavBar({setLoggedUser, loggedUser}) {
 
-
+  const [liveCasinoClicked, setLiveCasinoClicked] = useState(false)
   const [profileClicked, setProfileClicked] = useState(false)
 
   const navigate = useNavigate();
@@ -17,6 +17,7 @@ function NavBar({setLoggedUser, loggedUser}) {
   function handleHomeClick() {
     navigate('/')
     setProfileClicked(false)
+    setLiveCasinoClicked(false)
   }
 
   function handleLogOut() {
@@ -42,21 +43,46 @@ function NavBar({setLoggedUser, loggedUser}) {
     setProfileClicked(false)
 
   }
+
+
   function handleLiveCasinoClick() {
     navigate(`/livecasino`);
     setProfileClicked(false)
+    setLiveCasinoClicked(true)
+    console.log(liveCasinoClicked)
   }
   function handleMyBetsClick() {
     navigate(`/mybets`);
     setProfileClicked(false)
+    setLiveCasinoClicked(false)
+  }
+
+  function handleBlackJackClick() {
+    navigate('/blackjack')
+    setLiveCasinoClicked(true)
+  }
+  function handleRouletteClick() {
+    navigate(`/roulette`);
+    setLiveCasinoClicked(true)
+
   }
   return (
+    <div className="whole-nav">
+      <div className="green-nav-with-words">
+      <div className="green-nav-container">
+        <p onClick={handleLiveCasinoClick} className={liveCasinoClicked ? "blue-casino-logo":"green-logo"}>Live Casino</p>
+        <p onClick={handleBlackJackClick} className='blackjack-nav-btn'>BlackJack</p>
+        <p onClick={handleRouletteClick}>Roulette</p>
+      </div>
+      <p className="if-you">If you or someone you know has a gambling problem, help is available. Call <b>(877-8-HOPENY)</b>
+or text HOPENY <b>(467369)</b>
+</p>
+      </div>
     <div className="nav-container">
       <div>
-        <p className="logo">Sports Book</p>
+        <p onClick={handleHomeClick} className="logo">Sports Book</p>
         <p onClick={handleHomeClick} className="home-btn">Home</p>
         <p onClick={handleMyBetsClick} className="my-bets">My Bets</p>
-        <p onClick={handleLiveCasinoClick} className="my-bets">Live Casino</p>
       </div>
       {
         sessionStorage.getItem('jwt') == null || sessionStorage.getItem('jwt') == 'undefined'?
@@ -66,7 +92,7 @@ function NavBar({setLoggedUser, loggedUser}) {
       </div> :
       <div className='log-join-div'>
         <img onClick={handleProfileClick} className="user-image" src={loggedUser.image}/>
-        <p onClick={handleProfileClick}>{loggedUser.name}</p>
+        <p className="username" onClick={handleProfileClick}>{loggedUser.name}</p>
         { profileClicked ? 
         <div className="profile-div">
           <h1 style={{}}>{loggedUser.name}</h1>
@@ -88,6 +114,7 @@ function NavBar({setLoggedUser, loggedUser}) {
       <p onClick={handleLogOut} className="log-out-btn">Log Out</p>
       </div>    
       }
+    </div>
     </div>
   );
 }

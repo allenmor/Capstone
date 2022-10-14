@@ -872,6 +872,8 @@ export default function Layout({
     .then(data => {
         setLoggedUser(data)
     })
+      console.log('how much won', currentBetValue)
+      console.log('pendingtotalbet', pendingTotalBet)
       setChipCount(chipCount - currentBetValue);
       setPendingTotalBet(pendingTotalBet + currentBetValue);
     }

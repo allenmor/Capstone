@@ -3,6 +3,7 @@
 }
 .home-card-div {
     width: 56vw;
+    margin-left: 14.8vw;
 }
 
 .each-game {
@@ -43,6 +44,7 @@
     background-color: rgb(233,236,239);
     border-radius: 5px;
     height: 5rem;
+    cursor: pointer;
 
 }
 
@@ -50,6 +52,7 @@
     background-color: rgb(244,193,85);
     border-radius: 5px;
     height: 5rem;
+    cursor: pointer;
 }
 
 .table-header {

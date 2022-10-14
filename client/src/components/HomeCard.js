@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-function HomeCard({game}) {
+function HomeCard({game, setCurrAwayGame, setCurrGame}) {
 
     let arr = []
     let awayArr = []
@@ -12,12 +12,31 @@ function HomeCard({game}) {
         return awayArr.push(el.markets[0].outcomes[1].price)
     })
 
+    function handleBetClick(el) {
+        console.log(el)
+        setCurrGame({
+            name: el.markets[0].outcomes[0].name,
+            price: el.markets[0].outcomes[0].price,
+            opposing_team: el.markets[0].outcomes[1].name
+        })
+    }
+    function handleAwayClick(el) {
+        console.log(el)
+        setCurrGame({
+            name: el.markets[0].outcomes[1].name,
+            price: el.markets[0].outcomes[1].price,
+            opposing_team: el.markets[0].outcomes[0].name
+        })
+    }
+
+
   return (
     <div className='each-game'>
         <div className='home-at-away'>
         <p>{game.home_team}&nbsp;</p>
         <p>@&nbsp;</p>
         <p>{game.away_team}</p>
+        <p>{game.commence_time}</p>
         </div>
         <table className='odds-table'>
             <thead>
@@ -32,13 +51,13 @@ function HomeCard({game}) {
                 <tr className='numbers-row'>
                     <td>{game.home_team}</td>
                     {game.bookmakers.map((el, i) => {
-                        return <td className={Math.max(...arr) == el.markets[0].outcomes[0].price ? 'best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[0].price > 0 ? '+':''}{el.markets[0].outcomes[0].price}</td>
+                        return <td onClick={() => handleBetClick(el)} className={Math.max(...arr) == el.markets[0].outcomes[0].price ? 'best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[0].price > 0 ? '+':''}{el.markets[0].outcomes[0].price}</td>
                     })}
                 </tr>
                 <tr className='numbers-row'>
                     <td>{game.away_team}</td>
                     {game.bookmakers.map((el, i) => {
-                        return <td className={Math.max(...awayArr) == el.markets[0].outcomes[1].price ? 'best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[1].price > 0 ? '+':''}{el.markets[0].outcomes[1].price}</td>
+                        return <td onClick={() => handleAwayClick(el)} className={Math.max(...awayArr) == el.markets[0].outcomes[1].price ? 'best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[1].price > 0 ? '+':''}{el.markets[0].outcomes[1].price}</td>
                     })}
                 </tr>
             </tbody>

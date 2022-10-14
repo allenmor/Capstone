@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   patch '/blackjackdouble', to: 'bets#blackjack_double'
   patch '/blackjackoutcome', to: 'bets#blackjack_outcome'
   get '/betsforuser', to: 'bets#bets_for_user'
+  post 'roulettebet', to: 'bets#roulette_bet'
+  patch 'roulettewon', to: 'bets#roulette_won'
 end
