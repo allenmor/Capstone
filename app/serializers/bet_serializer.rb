@@ -4,4 +4,5 @@ class BetSerializer < ActiveModel::Serializer
   def add_game_name 
     object.game
   end
+
 end

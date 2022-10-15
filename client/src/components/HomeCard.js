@@ -27,6 +27,7 @@ function HomeCard({game, setCurrAwayGame, setCurrGame}) {
             price: el.markets[0].outcomes[1].price,
             opposing_team: el.markets[0].outcomes[0].name
         })
+        console.log(el)
     }
 
 

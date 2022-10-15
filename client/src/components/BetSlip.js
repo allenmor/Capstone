@@ -1,9 +1,19 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react';
 
 
 import './BetSlip.css'
 function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
+
+    let initialBet = {
+        bet_amount: '',
+        home: '',
+        away: '',
+        spread: '',
+        game_id: 3
+    }
+    const [bet, setBet] = useState(initialBet)
     const navigate = useNavigate();
 
     function handleRemoveAllClick() {
@@ -16,6 +26,41 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
     }
 
 
+    function handleBetChange(e) {
+        setBet({
+            ...bet,
+           bet_amount: e.target.value,
+           payout: Math.floor(e.target.value * currGame.price / 10),
+           spread: currGame.price,
+           home: currGame.name,
+           away: currGame.opposing_team,
+           pending: true
+        })
+        console.log(bet)
+    }
+
+    function handleBetSubmit(e) {
+        e.preventDefault()
+        fetch('/sportsbet', {
+            method: 'POST',
+            headers: {
+                token: sessionStorage.getItem('jwt'),
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(bet)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+        })
+    }
+
+    function handlePlaceBetClick() {
+        
+    }
+
+
+    console.log(sessionStorage.getItem('jwt'));
   return (
     <div className='bet-slip-container'>
         <div className='slip-title'>
@@ -32,11 +77,12 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
             <p className='action'>Action</p>
             <p className='moneyline'>MONEYLINE</p>
             <p className='teams-betting-on'>{currGame.name} @ {currGame.opposing_team}</p>
-            <form className='wager-form'>
+            <form onSubmit={handleBetSubmit} className='wager-form'>
                 <i>$</i>
-                <input placeholder='Wager' type='text' />
+                <input onChange={handleBetChange} name='bet_amount' value={bet.bet_amount} placeholder='Wager' type='number' />
                 <i>$</i>
-                <input placeholder='To Win' type='text' />
+                <input onChange={handleBetChange} name='payout' value={Math.floor(bet.bet_amount * currGame.price / 10)} placeholder='To Win' type='text' />
+                <input type='submit' value='Submit' />
             </form>
             </div>
         </div>
@@ -45,7 +91,7 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         </div>
 
         <div className='place-bet-div'>
-            {sessionStorage.getItem('jwt') ? <button className='place-bet-btn'>Place Bet</button> : <button onClick={handleLogInBetClick} className='place-bet-btn'>Log In</button>}
+            {sessionStorage.getItem('jwt') ? <button onClick={handlePlaceBetClick} className='place-bet-btn'>Place Bet</button> : <button onClick={handleLogInBetClick} className='place-bet-btn'>Log In</button>}
         </div>
         </> : 
         <div className='bet-slip-empty-div'>

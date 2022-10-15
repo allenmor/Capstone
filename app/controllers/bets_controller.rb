@@ -57,12 +57,15 @@ class BetsController < ApplicationController
     def sports_bet 
         token = request.headers['token']
         user_id = decode(token)
-        bet = Bet.create(
+        bet = Bet.create!(
             game_id: 3,
             user_id: user_id,
             bet_amount: params[:bet_amount],
-            payout: 0,
-            pending: true
+            payout: params[:payout].to_i,
+            pending: params[:pending],
+            home: params[:home],
+            away: params[:away],
+            spread: params[:spread].to_i
         )
         render json: bet
     end
