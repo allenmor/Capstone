@@ -8,7 +8,6 @@
     align-items: center;
     position: fixed;
     border-left: none;
-    z-index: -1;
 }
 
 .popular-div p {

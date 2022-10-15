@@ -52,4 +52,18 @@ class BetsController < ApplicationController
         user.bets.last.update!(payout: params[:payout])
         render json: user.bets.last
     end
+
+
+    def sports_bet 
+        token = request.headers['token']
+        user_id = decode(token)
+        bet = Bet.create(
+            game_id: 3,
+            user_id: user_id,
+            bet_amount: params[:bet_amount],
+            payout: 0,
+            pending: true
+        )
+        render json: bet
+    end
 end

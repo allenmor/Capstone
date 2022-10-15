@@ -15,10 +15,7 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         navigate(`/login`);
     }
 
-    function yo() {
-        console.log(';lokoisfa')
-    }
-    console.log(sessionStorage.getItem('jwt'))
+
   return (
     <div className='bet-slip-container'>
         <div className='slip-title'>
@@ -35,6 +32,12 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
             <p className='action'>Action</p>
             <p className='moneyline'>MONEYLINE</p>
             <p className='teams-betting-on'>{currGame.name} @ {currGame.opposing_team}</p>
+            <form className='wager-form'>
+                <i>$</i>
+                <input placeholder='Wager' type='text' />
+                <i>$</i>
+                <input placeholder='To Win' type='text' />
+            </form>
             </div>
         </div>
         <div className='remove-all'>
@@ -42,7 +45,7 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         </div>
 
         <div className='place-bet-div'>
-            {sessionStorage.getItem('jwt') ? <button onClick={yo} className='place-bet-btn'>Place Bet</button> : <button onClick={handleLogInBetClick} className='place-bet-btn'>Log In</button>}
+            {sessionStorage.getItem('jwt') ? <button className='place-bet-btn'>Place Bet</button> : <button onClick={handleLogInBetClick} className='place-bet-btn'>Log In</button>}
         </div>
         </> : 
         <div className='bet-slip-empty-div'>

@@ -10,7 +10,6 @@
     height: 84.6vh;
     border: 1px solid gray;
     box-shadow: 5px 2px 5px grey;
-    z-index: -1;
 }
 
 .slip-title {
@@ -108,4 +107,17 @@
 
 .bet-slip-empty-div p {
     font-weight: bold;
+}
+
+.wager-form {
+    display: flex;
+    height: 5vh;
+    padding: 2vh;
+    align-items: center;
+}
+.wager-form input {
+    width: 80%;
+    margin-right: 1vh;
+    margin-left: 1vh;
+
 }
