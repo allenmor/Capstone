@@ -11,6 +11,10 @@ import WithdrawMoney from './components/WithdrawMoney';
 import LiveCasino from './components/LiveCasino';
 import BlackJack from './components/BlackJack';
 import Roulette from './components/Roulette';
+import NFL from './components/NFL';
+import Soccer from './components/Soccer';
+import MLB from './components/MLB';
+import NBA from './components/NBA';
 
 function App() {
   const [loggedUser, setLoggedUser] = useState({name: ''})
@@ -87,6 +91,30 @@ function App() {
         <>
         <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
         <MyBets setLoggedUser={setLoggedUser} loggedUser={loggedUser}/>
+        </>
+      }/>
+    <Route path='/nfl' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <NFL loggedUser={loggedUser}/>
+        </>
+      }/>
+    <Route path='/soccer' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <Soccer loggedUser={loggedUser}/>
+        </>
+      }/>
+    <Route path='/mlb' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <MLB loggedUser={loggedUser}/>
+        </>
+      }/>
+    <Route path='/nba' element={
+        <>
+        <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser} user={loggedUser}/>
+        <NBA loggedUser={loggedUser}/>
         </>
       }/>
     </Routes>

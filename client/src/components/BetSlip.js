@@ -51,7 +51,6 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         })
         .then(res => res.json())
         .then(data => {
-            console.log(data)
         })
     }
 

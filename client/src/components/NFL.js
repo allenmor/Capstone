@@ -1,39 +1,32 @@
 import React from 'react'
 import Popular from './Popular'
 import { useEffect, useState } from 'react'
-import HomeCard from './HomeCard'
-import './Home.css'
+import NFLCard from './NFLCard'
 import BetSlip from './BetSlip'
+function NFL({loggedUser}) {
+    const [games, setGames] = useState([])
+    const [userSignedUp, setUserSignedUp] = useState(false)
+    const [moneyAddedClicked, setMoneyAddedClicked] = useState(false)
+    const [currGame, setCurrGame] = useState({})
+    const [currAwayGame, setCurrAwayGame] = useState({})
+  
+    const currDate = new Date().toLocaleDateString();
+    const currTime = new Date().toLocaleTimeString();
 
-function Home() {
+    const [nfl, setNfl] = useState([])
 
-  const [games, setGames] = useState([])
-  const [userSignedUp, setUserSignedUp] = useState(false)
-  const [moneyAddedClicked, setMoneyAddedClicked] = useState(false)
-  const [currGame, setCurrGame] = useState({})
-  const [currAwayGame, setCurrAwayGame] = useState({})
-
-  const currDate = new Date().toLocaleDateString();
-  const currTime = new Date().toLocaleTimeString();
-
-
-
-  useEffect(()=>{
-  fetch('https://raw.githubusercontent.com/allenmor/Capstone/main/client/odds.json')
-  .then(res =>res.json())
-  .then(data => {
-    setGames(data)
-    console.log(data)
-  })
-  },[])
-
-
-  let trueGames = games.filter((el, i) => {
-    return el.bookmakers.length > 0
-  })
-
-
-
+    useEffect(()=>{
+    
+        fetch('https://raw.githubusercontent.com/allenmor/Capstone/main/client/odds.json')
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+            let newArr = data.filter((el, i) => {
+                return el.sport_key.includes('nfl')
+            })
+            setNfl(newArr)
+        })
+    },[])
   return (
     <div className='home-div'>
       <Popular />
@@ -48,8 +41,8 @@ function Home() {
       <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/8/30/2022-08-30_16-19-18_624x220.jpg'/>
       <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/9/8/2022-09-08_20-45-55_624x220.jpg'/>
       </div>
-      {trueGames.map((el, i) => {
-        return <HomeCard setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} game={el} key={i} />
+      {nfl.map((el, i) => {
+        return <NFLCard setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} game={el} key={i} />
       })}
       </div>
         <BetSlip currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
@@ -57,4 +50,5 @@ function Home() {
   )
 }
 
-export default Home
+
+export default NFL

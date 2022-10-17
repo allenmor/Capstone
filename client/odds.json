@@ -4689,15 +4689,6 @@
     ]
   },
   {
-    "id": "4ee31ce50aee8016ffb0b4ab062e31e9",
-    "sport_key": "basketball_nba_preseason",
-    "sport_title": "NBA Preseason",
-    "commence_time": "2022-10-09T23:00:00Z",
-    "home_team": "Oklahoma City Thunder",
-    "away_team": "Maccabi Raanana",
-    "bookmakers": []
-  },
-  {
     "id": "5787b9f740039ab1a3a885a54f56c80f",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
