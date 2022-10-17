@@ -1,3 +1,7 @@
+.all-bets-container {
+    display: flex;
+}
+
 .each-bet {
     display: flex;
 }

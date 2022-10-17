@@ -13,7 +13,6 @@ function HomeCard({game, setCurrAwayGame, setCurrGame}) {
     })
 
     function handleBetClick(el) {
-        console.log(el)
         setCurrGame({
             name: el.markets[0].outcomes[0].name,
             price: el.markets[0].outcomes[0].price,

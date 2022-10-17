@@ -8,6 +8,13 @@ class BetsController < ApplicationController
         render json: bets
     end
 
+    def pending_bets 
+        token = request.headers['token']
+        user_id = decode(token)
+        bets = Bet.where(user_id: user_id, pending: true)
+        render json: bets
+    end
+
     def blackjack_bet
         token = request.headers['token']
         user_id = decode(token)

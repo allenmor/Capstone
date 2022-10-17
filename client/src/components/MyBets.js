@@ -1,9 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import MyBetsCard from "./MyBetsCard";
+import PendingBets from "./PendingBets";
 function MyBets({ setLoggedUser, loggedUser }) {
   const [bets, setBets] = useState([]);
+  const [pendingBets, setPendingBets] = useState([])
 
+
+  // CLOSED BETS
   useEffect(() => {
     fetch("/betsforuser", {
       headers: {
@@ -14,12 +18,26 @@ function MyBets({ setLoggedUser, loggedUser }) {
       .then((res) => res.json())
       .then((data) => {
         setBets(data.reverse());
-        console.log(data);
+      });
+  }, []);
+
+  // PENDING BETS
+  useEffect(() => {
+    fetch("/pendingbets", {
+      headers: {
+        token: sessionStorage.getItem("jwt"),
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setPendingBets(data.reverse())
       });
   }, []);
 
   return (
-    <div>
+    <div className="all-bets-container">
+      <div>
       <table>
         <thead>
           <tr>
@@ -36,6 +54,25 @@ function MyBets({ setLoggedUser, loggedUser }) {
           })}
         </tbody>
       </table>
+      </div>
+      <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Game</th>
+            <th>Time</th>
+            <th>Bet</th>
+            <th>Multiplier</th>
+            <th>Payout</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pendingBets.map((el, i) => {
+            return <PendingBets key={i} bet={el} />;
+          })}
+        </tbody>
+      </table>
+      </div>
     </div>
   );
 }

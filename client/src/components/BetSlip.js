@@ -30,14 +30,14 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         setBet({
             ...bet,
            bet_amount: e.target.value,
-           payout: Math.floor(e.target.value * currGame.price / 10),
+           payout: Math.floor(Math.floor(bet.bet_amount * currGame.price / 100)),
            spread: currGame.price,
            home: currGame.name,
            away: currGame.opposing_team,
            pending: true
         })
-        console.log(bet)
     }
+
 
     function handleBetSubmit(e) {
         e.preventDefault()
@@ -59,8 +59,6 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         
     }
 
-
-    console.log(sessionStorage.getItem('jwt'));
   return (
     <div className='bet-slip-container'>
         <div className='slip-title'>
@@ -81,7 +79,7 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
                 <i>$</i>
                 <input onChange={handleBetChange} name='bet_amount' value={bet.bet_amount} placeholder='Wager' type='number' />
                 <i>$</i>
-                <input onChange={handleBetChange} name='payout' value={Math.floor(bet.bet_amount * currGame.price / 10)} placeholder='To Win' type='text' />
+                <input onChange={handleBetChange} name='payout' value={Math.floor(bet.bet_amount * currGame.price / 100)} placeholder='To Win' type='text' />
                 <input type='submit' value='Submit' />
             </form>
             </div>

@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   post '/roulettebet', to: 'bets#roulette_bet'
   patch '/roulettewon', to: 'bets#roulette_won'
   post '/sportsbet', to: 'bets#sports_bet'
+  get '/pendingbets', to: 'bets#pending_bets'
 end
