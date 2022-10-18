@@ -31,8 +31,6 @@ function Popular() {
         <img src='https://logos-world.net/wp-content/uploads/2021/09/MLB-Logo.png'/>
         <p onClick={handleMLBClick}>MLB</p>
         </div>
-        <p>NHL</p>
-        <p>TENNIS</p>
         <div>
         <img src='https://www.freeiconspng.com/thumbs/soccer-ball-png/soccer-ball-png-33.png'/>
         <p onClick={handleSoccerClick}>Soccer</p>

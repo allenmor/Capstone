@@ -105,7 +105,7 @@
     white-space: nowrap;
     width: 35vh;
     flex-direction: column;
-    z-index: 100;
+    top: 6vh;
 }
 
 .profile-div h1 {

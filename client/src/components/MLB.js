@@ -15,6 +15,7 @@ function MLB({loggedUser}) {
     const currTime = new Date().toLocaleTimeString();
 
     const [mlb, setMlb] = useState([])
+    
 
     useEffect(()=>{
     
@@ -33,9 +34,9 @@ function MLB({loggedUser}) {
     <Popular />
     <div className='home-card-div'>
     <div className='ads-div'>
-    <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/9/13/2022-09-13_18-26-17_624x220.jpg'/>
-    <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/10/10/2022-10-10_16-04-32_624x220.png'/>
-    <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/8/30/2022-08-30_16-21-32_624x220.jpg'/>
+    <img className='images-front' src='https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/qqftaehqinsm9u4c5wfm.jpg'/>
+    <img className='images-front' src='https://www.sportsvideo.org/wp-content/uploads/2020/09/mlb-tbs.png'/>
+    <img className='images-front' src='https://i0.wp.com/sportsgamersonline.com/wp-content/uploads/2022/08/MLB%C2%AE-The-Show%E2%84%A2-22-Xbox-Series-X-S-112.png'/>
     <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/4/25/2022-04-25_18-42-43_624x220.jpg'/>
     <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/4/25/2022-04-25_18-42-43_624x220.jpg'/>
     <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/9/12/2022-09-12_16-33-55_624x220.jpg'/>
@@ -46,7 +47,7 @@ function MLB({loggedUser}) {
       return <MLBCard setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} game={el} key={i} />
     })}
     </div>
-      <BetSlip currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
+      <BetSlip id={4} currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
   </div>
   )
 }

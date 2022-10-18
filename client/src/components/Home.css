@@ -6,14 +6,25 @@
     width: 56vw;
     margin-left: 14.8vw;
 }
-
+.casino-logo-img {
+    width: 12vw;
+    transform: rotate(-90deg);
+    height: 6vh;
+    border-radius: 5px;
+}
 .each-game {
     border: 2px solid black;
     padding: 1vw;
     margin: 2vh;
     overflow-x: scroll;
 }
-
+.table-head {
+    height: 14vw;
+}
+.odds-table {
+    table-layout: fixed;
+    width: 54rem;
+}
 .home-at-away {
     display: flex;
 }

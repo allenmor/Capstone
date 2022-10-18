@@ -4,14 +4,14 @@ import { useEffect, useState } from 'react';
 
 
 import './BetSlip.css'
-function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
+function BetSlip({time, id, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
 
     let initialBet = {
         bet_amount: '',
         home: '',
         away: '',
         spread: '',
-        game_id: 3
+        game_id: id
     }
     const [bet, setBet] = useState(initialBet)
     const navigate = useNavigate();
@@ -36,6 +36,7 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
            away: currGame.opposing_team,
            pending: true
         })
+        console.log(currGame)
     }
 
 
@@ -51,12 +52,11 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         })
         .then(res => res.json())
         .then(data => {
+            console.log(data)
         })
     }
 
-    function handlePlaceBetClick() {
-        
-    }
+
 
   return (
     <div className='bet-slip-container'>
@@ -88,7 +88,7 @@ function BetSlip({time, date, setCurrAwayGame, currAwayGame, currGame, setCurrGa
         </div>
 
         <div className='place-bet-div'>
-            {sessionStorage.getItem('jwt') ? <button onClick={handlePlaceBetClick} className='place-bet-btn'>Place Bet</button> : <button onClick={handleLogInBetClick} className='place-bet-btn'>Log In</button>}
+            {sessionStorage.getItem('jwt') ? <button className='place-bet-btn'>Place Bet</button> : <button onClick={handleLogInBetClick} className='place-bet-btn'>Log In</button>}
         </div>
         </> : 
         <div className='bet-slip-empty-div'>

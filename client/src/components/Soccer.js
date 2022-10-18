@@ -35,9 +35,9 @@ function Soccer({loggedUser}) {
     <Popular />
     <div className='home-card-div'>
     <div className='ads-div'>
-    <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/9/13/2022-09-13_18-26-17_624x220.jpg'/>
-    <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/10/10/2022-10-10_16-04-32_624x220.png'/>
-    <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/8/30/2022-08-30_16-21-32_624x220.jpg'/>
+    <img className='images-front' src='https://usclubsoccer.org/wp-content/uploads/2022/02/Web-Article-Template-Option-1-scaled.jpg'/>
+    <img className='images-front' src='https://image.ibb.co/cooSC0/DAVIDE-CORTI-NATIONAL.png'/>
+    <img className='images-front' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqGiyAhVC-F_Ply980bA4dFfS8MfYt28SaLA&usqp=CAU'/>
     <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/4/25/2022-04-25_18-42-43_624x220.jpg'/>
     <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/4/25/2022-04-25_18-42-43_624x220.jpg'/>
     <img className='images-front' src='https://d1m565i184w2i9.cloudfront.net/cpp/fd/2022/9/12/2022-09-12_16-33-55_624x220.jpg'/>
@@ -48,7 +48,7 @@ function Soccer({loggedUser}) {
       return <SoccerCard setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} game={el} key={i} />
     })}
     </div>
-      <BetSlip currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
+      <BetSlip id={5} currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
   </div>
   )
 }
