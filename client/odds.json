@@ -17233,6 +17233,1608 @@
       ]
       }
       ]
-      }
-      ]
+      },
+        {
+        "id": "44b0ee37b5d7b998cb2c8af601364b94",
+        "sport_key": "soccer_finland_veikkausliiga",
+        "sport_title": "Veikkausliiga - Finland",
+        "commence_time": "2022-10-19T15:00:00Z",
+        "home_team": "SJK Seinäjoki",
+        "away_team": "AC Oulu",
+        "bookmakers": [
+        {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2022-10-19T14:23:51Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 320
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -137
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2022-10-19T14:24:05Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 320
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -137
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2022-10-19T14:23:45Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 320
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -137
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2022-10-19T14:23:50Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 360
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -150
+        },
+        {
+        "name": "Draw",
+        "price": 270
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2022-10-19T14:24:04Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 320
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -137
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-10-19T14:24:07Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 400
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -128
+        },
+        {
+        "name": "Draw",
+        "price": 300
+        }
+        ]
+        },
+        {
+        "key": "h2h_lay",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 420
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -127
+        },
+        {
+        "name": "Draw",
+        "price": 310
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2022-10-19T14:24:37Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 370
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -135
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-10-19T14:23:44Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 325
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -132
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2022-10-19T14:24:04Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 360
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -140
+        },
+        {
+        "name": "Draw",
+        "price": 295
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2022-10-19T14:24:34Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AC Oulu",
+        "price": 330
+        },
+        {
+        "name": "SJK Seinäjoki",
+        "price": -140
+        },
+        {
+        "name": "Draw",
+        "price": 280
+        }
+        ]
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "id": "b77eb11b6559e9496b387d233151dcf4",
+        "sport_key": "soccer_finland_veikkausliiga",
+        "sport_title": "Veikkausliiga - Finland",
+        "commence_time": "2022-10-19T15:00:00Z",
+        "home_team": "FC Inter Turku",
+        "away_team": "VPS Vaasa",
+        "bookmakers": [
+        {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2022-10-19T14:23:51Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 120
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 225
+        },
+        {
+        "name": "Draw",
+        "price": 205
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2022-10-19T14:24:05Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 120
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 225
+        },
+        {
+        "name": "Draw",
+        "price": 205
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2022-10-19T14:23:45Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 120
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 225
+        },
+        {
+        "name": "Draw",
+        "price": 205
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2022-10-19T14:23:50Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 120
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 240
+        },
+        {
+        "name": "Draw",
+        "price": 200
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2022-10-19T14:24:04Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 120
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 225
+        },
+        {
+        "name": "Draw",
+        "price": 205
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-10-19T14:24:07Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 134
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 225
+        }
+        ]
+        },
+        {
+        "key": "h2h_lay",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 136
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 275
+        },
+        {
+        "name": "Draw",
+        "price": 230
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2022-10-19T14:24:37Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 130
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 230
+        },
+        {
+        "name": "Draw",
+        "price": 210
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-10-19T14:23:44Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 125
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 240
+        },
+        {
+        "name": "Draw",
+        "price": 220
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2022-10-19T14:24:04Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 130
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 240
+        },
+        {
+        "name": "Draw",
+        "price": 215
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2022-10-19T14:24:34Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "FC Inter Turku",
+        "price": 115
+        },
+        {
+        "name": "VPS Vaasa",
+        "price": 240
+        },
+        {
+        "name": "Draw",
+        "price": 215
+        }
+        ]
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "id": "09cc28653bca7616c941d5687e5bab35",
+        "sport_key": "soccer_norway_eliteserien",
+        "sport_title": "Eliteserien - Norway",
+        "commence_time": "2022-10-19T16:00:00Z",
+        "home_team": "Jerv",
+        "away_team": "Aalesund",
+        "bookmakers": [
+        {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2022-10-19T14:23:30Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -115
+        },
+        {
+        "name": "Jerv",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2022-10-19T14:24:02Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -115
+        },
+        {
+        "name": "Jerv",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "sugarhouse",
+        "title": "SugarHouse",
+        "last_update": "2022-10-19T14:23:05Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -115
+        },
+        {
+        "name": "Jerv",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2022-10-19T14:23:06Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -115
+        },
+        {
+        "name": "Jerv",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2022-10-19T14:24:43Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -105
+        },
+        {
+        "name": "Jerv",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 250
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "gtbets",
+        "title": "GTbets",
+        "last_update": "2022-10-19T14:13:57Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -112
+        },
+        {
+        "name": "Jerv",
+        "price": 280
+        },
+        {
+        "name": "Draw",
+        "price": 278
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2022-10-19T14:23:39Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -115
+        },
+        {
+        "name": "Jerv",
+        "price": 250
+        },
+        {
+        "name": "Draw",
+        "price": 260
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-10-19T14:23:58Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -101
+        },
+        {
+        "name": "Jerv",
+        "price": 285
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        },
+        {
+        "key": "h2h_lay",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": 104
+        },
+        {
+        "name": "Jerv",
+        "price": 300
+        },
+        {
+        "name": "Draw",
+        "price": 310
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2022-10-19T14:24:43Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -110
+        },
+        {
+        "name": "Jerv",
+        "price": 275
+        },
+        {
+        "name": "Draw",
+        "price": 285
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2022-10-19T14:23:05Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -115
+        },
+        {
+        "name": "Jerv",
+        "price": 270
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "foxbet",
+        "title": "FOX Bet",
+        "last_update": "2022-10-19T14:23:13Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -120
+        },
+        {
+        "name": "Jerv",
+        "price": 240
+        },
+        {
+        "name": "Draw",
+        "price": 235
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2022-10-19T14:23:38Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -110
+        },
+        {
+        "name": "Jerv",
+        "price": 275
+        },
+        {
+        "name": "Draw",
+        "price": 255
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2022-10-19T14:24:21Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -110
+        },
+        {
+        "name": "Jerv",
+        "price": 275
+        },
+        {
+        "name": "Draw",
+        "price": 275
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-10-19T14:24:42Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Aalesund",
+        "price": -106
+        },
+        {
+        "name": "Jerv",
+        "price": 280
+        },
+        {
+        "name": "Draw",
+        "price": 290
+        }
+        ]
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "id": "3a23ac87251cf220c5c38486d18c44a6",
+        "sport_key": "soccer_belgium_first_div",
+        "sport_title": "Belgium First Div",
+        "commence_time": "2022-10-19T16:30:00Z",
+        "home_team": "Union Saint-Gilloise",
+        "away_team": "Gent",
+        "bookmakers": [
+        {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2022-10-19T14:23:51Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 205
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 109
+        },
+        {
+        "name": "Draw",
+        "price": 215
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2022-10-19T14:24:39Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 215
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 125
+        },
+        {
+        "name": "Draw",
+        "price": 230
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2022-10-19T14:24:05Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 225
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 125
+        },
+        {
+        "name": "Draw",
+        "price": 240
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2022-10-19T14:24:51Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 215
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 125
+        },
+        {
+        "name": "Draw",
+        "price": 230
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2022-10-19T14:22:45Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 215
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 125
+        },
+        {
+        "name": "Draw",
+        "price": 230
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2022-10-19T14:23:32Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 230
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 120
+        },
+        {
+        "name": "Draw",
+        "price": 235
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2022-10-19T14:24:06Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 220
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 110
+        },
+        {
+        "name": "Draw",
+        "price": 220
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-10-19T14:22:57Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 250
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 128
+        },
+        {
+        "name": "Draw",
+        "price": 250
+        }
+        ]
+        },
+        {
+        "key": "h2h_lay",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 260
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 132
+        },
+        {
+        "name": "Draw",
+        "price": 260
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2022-10-19T14:22:45Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 215
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 125
+        },
+        {
+        "name": "Draw",
+        "price": 230
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2022-10-19T14:24:44Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 220
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 120
+        },
+        {
+        "name": "Draw",
+        "price": 245
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-10-19T14:24:08Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "Gent",
+        "price": 210
+        },
+        {
+        "name": "Union Saint-Gilloise",
+        "price": 125
+        },
+        {
+        "name": "Draw",
+        "price": 240
+        }
+        ]
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "id": "50b8bca41a52c39ade80a98d74e4d4a6",
+        "sport_key": "soccer_sweden_allsvenskan",
+        "sport_title": "Allsvenskan - Sweden",
+        "commence_time": "2022-10-19T17:00:00Z",
+        "home_team": "AIK",
+        "away_team": "BK Hacken",
+        "bookmakers": [
+        {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2022-10-19T14:23:51Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 163
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2022-10-19T14:24:14Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 163
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2022-10-19T14:24:00Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 163
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "sugarhouse",
+        "title": "SugarHouse",
+        "last_update": "2022-10-19T14:23:44Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 163
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2022-10-19T14:23:17Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 140
+        },
+        {
+        "name": "BK Hacken",
+        "price": 160
+        },
+        {
+        "name": "Draw",
+        "price": 250
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2022-10-19T14:23:44Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 165
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2022-10-19T14:22:10Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 165
+        },
+        {
+        "name": "Draw",
+        "price": 245
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-10-19T14:24:25Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 158
+        },
+        {
+        "name": "BK Hacken",
+        "price": 180
+        },
+        {
+        "name": "Draw",
+        "price": 280
+        }
+        ]
+        },
+        {
+        "key": "h2h_lay",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 162
+        },
+        {
+        "name": "BK Hacken",
+        "price": 184
+        },
+        {
+        "name": "Draw",
+        "price": 285
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2022-10-19T14:22:34Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 165
+        },
+        {
+        "name": "Draw",
+        "price": 250
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "foxbet",
+        "title": "FOX Bet",
+        "last_update": "2022-10-19T14:22:34Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 135
+        },
+        {
+        "name": "BK Hacken",
+        "price": 140
+        },
+        {
+        "name": "Draw",
+        "price": 235
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2022-10-19T14:18:05Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 165
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-10-19T14:23:23Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 156
+        },
+        {
+        "name": "BK Hacken",
+        "price": 170
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2022-10-19T14:23:45Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 163
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-10-19T14:23:24Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 145
+        },
+        {
+        "name": "BK Hacken",
+        "price": 160
+        },
+        {
+        "name": "Draw",
+        "price": 250
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2022-10-19T14:24:44Z",
+        "markets": [
+        {
+        "key": "h2h",
+        "outcomes": [
+        {
+        "name": "AIK",
+        "price": 150
+        },
+        {
+        "name": "BK Hacken",
+        "price": 160
+        },
+        {
+        "name": "Draw",
+        "price": 265
+        }
+        ]
+        }
+        ]
+        }
+        ]
+        },
+        {
+        "id": "4dfc4f7b7a6b6ce7076e7e8c6c6a2ed6",
+        "sport_key": "icehockey_sweden_allsvenskan",
+        "sport_title": "HockeyAllsvenskan",
+        "commence_time": "2022-10-19T17:00:00Z",
+        "home_team": "IF Björklöven",
+        "away_team": "AIK",
+        "bookmakers": []
+        },
+        {
+        "id": "2c930631578f18e0c81a521de6e5b2dd",
+        "sport_key": "icehockey_sweden_allsvenskan",
+        "sport_title": "HockeyAllsvenskan",
+        "commence_time": "2022-10-19T17:00:00Z",
+        "home_team": "Almtuna IS",
+        "away_team": "Östersunds IK",
+        "bookmakers": []
+        },
+        {
+        "id": "82345d96f3c411f785db3dad5f585f01",
+        "sport_key": "icehockey_sweden_allsvenskan",
+        "sport_title": "HockeyAllsvenskan",
+        "commence_time": "2022-10-19T17:00:00Z",
+        "home_team": "Modo Hockey",
+        "away_team": "BIK Karlskoga",
+        "bookmakers": []
+        }
+        ]
     
