@@ -70,13 +70,11 @@ function NBACard({game, setCurrAwayGame, setCurrGame}) {
         })
     }
     function handleAwayClick(el) {
-        console.log(el)
         setCurrGame({
             name: el.markets[0].outcomes[1].name,
             price: el.markets[0].outcomes[1].price,
             opposing_team: el.markets[0].outcomes[0].name
         })
-        console.log(el)
     }
   return (
     <div className='each-game'>

@@ -68,7 +68,7 @@ class BetsController < ApplicationController
             game_id: params[:game_id],
             user_id: user_id,
             bet_amount: params[:bet_amount],
-            payout: params[:payout].to_i,
+            payout: params[:payout] * 10,
             pending: params[:pending],
             home: params[:home],
             away: params[:away],

@@ -18,6 +18,7 @@
 .popular-div div {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .popular-div div:hover {
     border-bottom: 1px solid gray;
@@ -26,6 +27,7 @@
     width: 3vw;
     height: 3vh;
     margin-right: 1vw;
+    object-fit: contain;
 }
 
 .popular-div h3 {

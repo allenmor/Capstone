@@ -23,7 +23,6 @@ function Soccer({loggedUser}) {
         fetch('https://raw.githubusercontent.com/allenmor/Capstone/main/client/odds.json')
         .then(res => res.json())
         .then(data => {
-            console.log(data)
             let newArr = data.filter((el, i) => {
                 return el.sport_key.includes('soccer')
             })

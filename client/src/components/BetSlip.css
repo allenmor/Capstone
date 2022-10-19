@@ -9,6 +9,8 @@
     height: 84.6vh;
     border: 1px solid gray;
     box-shadow: 5px 2px 5px grey;
+    top: 12vh;
+    position: sticky;
 }
 
 .slip-title {
@@ -47,8 +49,13 @@
     margin-top: 2vh;
     border: 1px solid gray;
     background-color: rgb(255,255,255);
+    padding: 1rem;
 }
 
+
+.current-bets-div{
+    display: flex;
+}
 .remove-all {
     margin-top: 2vh;
     background-color: rgb(255,255,255);
@@ -113,10 +120,28 @@
     height: 5vh;
     padding: 2vh;
     align-items: center;
+    flex-direction: column;
 }
 .wager-form input {
     width: 80%;
     margin-right: 1vh;
     margin-left: 1vh;
 
+}
+
+.submit-sports-bet {
+    background: none;
+	color: white;
+    font-weight: bold;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color: rgb(23,169,77);
+    padding: 0.8rem;
+    border-radius: 5px; 
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1rem;
 }

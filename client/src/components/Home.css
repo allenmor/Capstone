@@ -7,11 +7,19 @@
     margin-left: 14.8vw;
 }
 .casino-logo-img {
-    width: 12vw;
+    width: 10vw;
     transform: rotate(-90deg);
     height: 6vh;
     border-radius: 5px;
 }
+.table-header {
+    width: 3.5rem;
+}
+
+.home-away{
+    width: 11rem;
+}
+
 .each-game {
     border: 2px solid black;
     padding: 1vw;
@@ -19,11 +27,12 @@
     overflow-x: scroll;
 }
 .table-head {
-    height: 14vw;
+    height: 11vw;
 }
 .odds-table {
-    table-layout: fixed;
-    width: 54rem;
+    /* table-layout: fixed;
+    width: 54rem; */
+
 }
 .home-at-away {
     display: flex;
@@ -39,9 +48,8 @@
 .ads-div {
     display: flex;
     overflow-x: scroll;
-    border: 2px solid black;
     margin: 2vh;
-
+    border-right: 10px solid hsla(0,0%,100%,.5);;
 }
 
 .images-front {
@@ -53,20 +61,39 @@
 }
 
 .bet-num {
+    /* background-color: rgb(233,236,239);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center; */
+
     background-color: rgb(233,236,239);
     border-radius: 5px;
-    height: 5rem;
+    height: 40px;
+    vertical-align: middle;
     cursor: pointer;
+    font-weight: bold;
 
+    text-align: center;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .best-bet {
     background-color: rgb(244,193,85);
-    border-radius: 5px;
-    height: 5rem;
+    font-weight: bold;
+    text-align: center;
     cursor: pointer;
 }
-
+.home-away-team{
+    /* width: 1vw; */
+    display: block;
+    width: max-content;
+}
+.numbers-row {
+    width: 6rem;
+}
 .table-header {
     writing-mode: vertical-rl;
 }

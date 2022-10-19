@@ -104,13 +104,13 @@ function HomeCard({game, setCurrAwayGame, setCurrGame}) {
                 <tr className='numbers-row'>
                     <td className='home-away-team'>{game.home_team}</td>
                     {game.bookmakers.map((el, i) => {
-                        return <td onClick={() => handleBetClick(el)} className={Math.max(...arr) == el.markets[0].outcomes[0].price ? 'best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[0].price > 0 ? '+':''}{el.markets[0].outcomes[0].price}</td>
+                        return <td onClick={() => handleBetClick(el)} className={Math.max(...arr) == el.markets[0].outcomes[0].price ? 'bet-num best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[0].price > 0 ? '+':''}{el.markets[0].outcomes[0].price}</td>
                     })}
                 </tr>
                 <tr className='numbers-row'>
                     <td className='home-away-team'>{game.away_team}</td>
                     {game.bookmakers.map((el, i) => {
-                        return <td onClick={() => handleAwayClick(el)} className={Math.max(...awayArr) == el.markets[0].outcomes[1].price ? 'best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[1].price > 0 ? '+':''}{el.markets[0].outcomes[1].price}</td>
+                        return <td onClick={() => handleAwayClick(el)} className={Math.max(...awayArr) == el.markets[0].outcomes[1].price ? 'bet-num best-bet' : 'bet-num'} key={i}>{el.markets[0].outcomes[1].price > 0 ? '+':''}{el.markets[0].outcomes[1].price}</td>
                     })}
                 </tr>
             </tbody>

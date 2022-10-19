@@ -37,11 +37,12 @@ function MyBets({ setLoggedUser, loggedUser }) {
 
   return (
     <div className="all-bets-container">
-      <div>
-      <table>
+      <div className="my-bets-table-each">
+        <h1>Settled</h1>
+      <table className="my-bets-table">
         <thead>
-          <tr>
-            <th>Game</th>
+          <tr className="my-bets-tr">
+            <th className="my-bets-th">Game</th>
             <th>Time</th>
             <th>Bet</th>
             <th>Multiplier</th>
@@ -55,10 +56,11 @@ function MyBets({ setLoggedUser, loggedUser }) {
         </tbody>
       </table>
       </div>
-      <div>
-      <table>
+      <div className="my-bets-table-each">
+        <h1>Active</h1>
+      <table className="my-bets-table">
         <thead>
-          <tr>
+          <tr className="my-bets-tr">
             <th>Game</th>
             <th>Time</th>
             <th>Bet</th>

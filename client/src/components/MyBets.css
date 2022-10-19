@@ -1,7 +1,43 @@
 .all-bets-container {
     display: flex;
+    margin-top: 1vh;
 }
 
 .each-bet {
     display: flex;
+    overflow-x: auto;
 }
+
+.my-bets-table {
+    border: 2px solid rgb(18, 17, 17);
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    table-layout: fixed;
+}
+
+.my-bets-tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+    text-align: center;
+}
+
+.my-bets-th .my-bets-td {
+    padding: .625em;
+    text-align: center;
+}
+
+.my-bets-th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.my-bets-table-each {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

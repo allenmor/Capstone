@@ -3,12 +3,12 @@ import './MyBets.css'
 function MyBetsCard({bet}) {
   return (
 
-        <tr>
-          <td>{bet.add_game_name.name}</td>
-          <td>{bet.updated_at}</td>
-          <td>${bet.bet_amount}</td>
-          <td>{(bet.payout / bet.bet_amount).toFixed(2)}x</td>
-          <td>{bet.payout}</td>
+        <tr className='my-bets-tr'>
+          <td className='my-bets-td'>{bet.add_game_name.name}</td>
+          <td className='my-bets-td'>{bet.updated_at}</td>
+          <td className='my-bets-td'>${bet.bet_amount}</td>
+          <td className='my-bets-td'>{(bet.payout / bet.bet_amount).toFixed(2)}x</td>
+          <td className='my-bets-td'>${bet.payout}</td>
         </tr>
   )
 }
