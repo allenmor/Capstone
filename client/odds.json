@@ -18835,6 +18835,2402 @@
         "home_team": "Modo Hockey",
         "away_team": "BIK Karlskoga",
         "bookmakers": []
-        }
-        ]
+        },
+          {
+          "id": "52fd8fa3ab24ae0332112927501c7dd2",
+          "sport_key": "soccer_finland_veikkausliiga",
+          "sport_title": "Veikkausliiga - Finland",
+          "commence_time": "2022-10-20T15:30:00Z",
+          "home_team": "TPS Turku",
+          "away_team": "FC Lahti",
+          "bookmakers": [
+          {
+          "key": "bovada",
+          "title": "Bovada",
+          "last_update": "2022-10-20T14:16:48Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Lahti",
+          "price": 225
+          },
+          {
+          "name": "TPS Turku",
+          "price": 130
+          },
+          {
+          "name": "Draw",
+          "price": 195
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-10-20T14:17:31Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Lahti",
+          "price": 210
+          },
+          {
+          "name": "TPS Turku",
+          "price": 125
+          },
+          {
+          "name": "Draw",
+          "price": 210
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:17:19Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Lahti",
+          "price": 235
+          },
+          {
+          "name": "TPS Turku",
+          "price": 140
+          },
+          {
+          "name": "Draw",
+          "price": 235
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "FC Lahti",
+          "price": 245
+          },
+          {
+          "name": "TPS Turku",
+          "price": 144
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betus",
+          "title": "BetUS",
+          "last_update": "2022-10-20T14:17:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Lahti",
+          "price": 230
+          },
+          {
+          "name": "TPS Turku",
+          "price": 135
+          },
+          {
+          "name": "Draw",
+          "price": 210
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "42d2436fe17b191c463d09a756b6f572",
+          "sport_key": "soccer_belgium_first_div",
+          "sport_title": "Belgium First Div",
+          "commence_time": "2022-10-20T16:30:00Z",
+          "home_team": "Royal Antwerp",
+          "away_team": "Oostende",
+          "bookmakers": [
+          {
+          "key": "williamhill_us",
+          "title": "William Hill (US)",
+          "last_update": "2022-10-20T14:17:04Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 600
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -295
+          },
+          {
+          "name": "Draw",
+          "price": 325
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "barstool",
+          "title": "Barstool Sportsbook",
+          "last_update": "2022-10-20T14:16:02Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 575
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -245
+          },
+          {
+          "name": "Draw",
+          "price": 375
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "wynnbet",
+          "title": "WynnBET",
+          "last_update": "2022-10-20T14:17:33Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 600
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -233
+          },
+          {
+          "name": "Draw",
+          "price": 380
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "twinspires",
+          "title": "TwinSpires",
+          "last_update": "2022-10-20T14:16:53Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 575
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -245
+          },
+          {
+          "name": "Draw",
+          "price": 375
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betrivers",
+          "title": "BetRivers",
+          "last_update": "2022-10-20T14:16:21Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 575
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -245
+          },
+          {
+          "name": "Draw",
+          "price": 375
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-10-20T14:17:33Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 600
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -245
+          },
+          {
+          "name": "Draw",
+          "price": 400
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-10-20T14:17:33Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 550
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -280
+          },
+          {
+          "name": "Draw",
+          "price": 380
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:17:11Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 680
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -227
+          },
+          {
+          "name": "Draw",
+          "price": 430
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 720
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -217
+          },
+          {
+          "name": "Draw",
+          "price": 450
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "unibet_us",
+          "title": "Unibet",
+          "last_update": "2022-10-20T14:16:48Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 575
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -245
+          },
+          {
+          "name": "Draw",
+          "price": 375
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:15:41Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 575
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -250
+          },
+          {
+          "name": "Draw",
+          "price": 375
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betus",
+          "title": "BetUS",
+          "last_update": "2022-10-20T14:16:02Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Oostende",
+          "price": 600
+          },
+          {
+          "name": "Royal Antwerp",
+          "price": -235
+          },
+          {
+          "name": "Draw",
+          "price": 385
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "bfbfd2551a898a0739a608789f0d710d",
+          "sport_key": "soccer_spain_la_liga",
+          "sport_title": "La Liga - Spain",
+          "commence_time": "2022-10-20T17:00:00Z",
+          "home_team": "Almería",
+          "away_team": "Girona",
+          "bookmakers": [
+          {
+          "key": "bovada",
+          "title": "Bovada",
+          "last_update": "2022-10-20T14:17:44Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 220
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "wynnbet",
+          "title": "WynnBET",
+          "last_update": "2022-10-20T14:17:27Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 170
+          },
+          {
+          "name": "Draw",
+          "price": 238
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2022-10-20T14:17:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 171
+          },
+          {
+          "name": "Girona",
+          "price": 162
+          },
+          {
+          "name": "Draw",
+          "price": 234
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betmgm",
+          "title": "BetMGM",
+          "last_update": "2022-10-20T14:13:30Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 225
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-10-20T14:17:42Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 220
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "williamhill_us",
+          "title": "William Hill (US)",
+          "last_update": "2022-10-20T14:17:28Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 220
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "foxbet",
+          "title": "FOX Bet",
+          "last_update": "2022-10-20T14:17:17Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 163
+          },
+          {
+          "name": "Draw",
+          "price": 220
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-10-20T14:15:09Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 165
+          },
+          {
+          "name": "Girona",
+          "price": 160
+          },
+          {
+          "name": "Draw",
+          "price": 220
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "twinspires",
+          "title": "TwinSpires",
+          "last_update": "2022-10-20T14:16:28Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 230
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "barstool",
+          "title": "Barstool Sportsbook",
+          "last_update": "2022-10-20T14:16:21Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 230
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betrivers",
+          "title": "BetRivers",
+          "last_update": "2022-10-20T14:16:27Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 230
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "sugarhouse",
+          "title": "SugarHouse",
+          "last_update": "2022-10-20T14:15:34Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 175
+          },
+          {
+          "name": "Girona",
+          "price": 170
+          },
+          {
+          "name": "Draw",
+          "price": 235
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "superbook",
+          "title": "SuperBook",
+          "last_update": "2022-10-20T14:15:33Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 160
+          },
+          {
+          "name": "Draw",
+          "price": 235
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:16:51Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 184
+          },
+          {
+          "name": "Girona",
+          "price": 178
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 186
+          },
+          {
+          "name": "Girona",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 250
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:14:41Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 175
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 225
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-10-20T14:15:40Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 168
+          },
+          {
+          "name": "Girona",
+          "price": 172
+          },
+          {
+          "name": "Draw",
+          "price": 240
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "lowvig",
+          "title": "LowVig.ag",
+          "last_update": "2022-10-20T14:16:13Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 168
+          },
+          {
+          "name": "Girona",
+          "price": 172
+          },
+          {
+          "name": "Draw",
+          "price": 240
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "unibet_us",
+          "title": "Unibet",
+          "last_update": "2022-10-20T14:16:42Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 170
+          },
+          {
+          "name": "Girona",
+          "price": 165
+          },
+          {
+          "name": "Draw",
+          "price": 230
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betus",
+          "title": "BetUS",
+          "last_update": "2022-10-20T14:17:42Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Almería",
+          "price": 175
+          },
+          {
+          "name": "Girona",
+          "price": 170
+          },
+          {
+          "name": "Draw",
+          "price": 230
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "b24e39c5806bb293a838e65b44dcb0f8",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport_title": "UEFA Europa",
+          "commence_time": "2022-10-20T17:00:00Z",
+          "home_team": "Arsenal",
+          "away_team": "PSV Eindhoven",
+          "bookmakers": [
+          {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2022-10-20T14:17:18Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -177
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 440
+          },
+          {
+          "name": "Draw",
+          "price": 340
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "superbook",
+          "title": "SuperBook",
+          "last_update": "2022-10-20T14:15:27Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -180
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 450
+          },
+          {
+          "name": "Draw",
+          "price": 340
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "foxbet",
+          "title": "FOX Bet",
+          "last_update": "2022-10-20T14:17:10Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -182
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 450
+          },
+          {
+          "name": "Draw",
+          "price": 320
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:17:03Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -167
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 520
+          },
+          {
+          "name": "Draw",
+          "price": 360
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -164
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 540
+          },
+          {
+          "name": "Draw",
+          "price": 370
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "gtbets",
+          "title": "GTbets",
+          "last_update": "2022-10-20T14:15:28Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -191
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 457
+          },
+          {
+          "name": "Draw",
+          "price": 345
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "williamhill_us",
+          "title": "William Hill (US)",
+          "last_update": "2022-10-20T14:15:16Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -190
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 450
+          },
+          {
+          "name": "Draw",
+          "price": 320
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "barstool",
+          "title": "Barstool Sportsbook",
+          "last_update": "2022-10-20T14:16:40Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -195
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 475
+          },
+          {
+          "name": "Draw",
+          "price": 360
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "twinspires",
+          "title": "TwinSpires",
+          "last_update": "2022-10-20T14:17:21Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -195
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 475
+          },
+          {
+          "name": "Draw",
+          "price": 360
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betrivers",
+          "title": "BetRivers",
+          "last_update": "2022-10-20T14:15:55Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -195
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 475
+          },
+          {
+          "name": "Draw",
+          "price": 360
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betmgm",
+          "title": "BetMGM",
+          "last_update": "2022-10-20T14:09:19Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -175
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 450
+          },
+          {
+          "name": "Draw",
+          "price": 333
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:16:15Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -189
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 450
+          },
+          {
+          "name": "Draw",
+          "price": 320
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "unibet_us",
+          "title": "Unibet",
+          "last_update": "2022-10-20T14:15:46Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -195
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 475
+          },
+          {
+          "name": "Draw",
+          "price": 360
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-10-20T14:14:56Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -178
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 480
+          },
+          {
+          "name": "Draw",
+          "price": 350
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "lowvig",
+          "title": "LowVig.ag",
+          "last_update": "2022-10-20T14:14:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -178
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 480
+          },
+          {
+          "name": "Draw",
+          "price": 350
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betus",
+          "title": "BetUS",
+          "last_update": "2022-10-20T14:17:00Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Arsenal",
+          "price": -170
+          },
+          {
+          "name": "PSV Eindhoven",
+          "price": 450
+          },
+          {
+          "name": "Draw",
+          "price": 335
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "d99fdd0852ff449d461a6236c568de80",
+          "sport_key": "icehockey_sweden_hockey_league",
+          "sport_title": "SHL",
+          "commence_time": "2022-10-20T17:00:00Z",
+          "home_team": "Brynäs IF",
+          "away_team": "Linköping HC",
+          "bookmakers": [
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:16:57Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Brynäs IF",
+          "price": -169
+          },
+          {
+          "name": "Linköping HC",
+          "price": 146
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "Brynäs IF",
+          "price": -145
+          },
+          {
+          "name": "Linköping HC",
+          "price": 170
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:16:04Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Brynäs IF",
+          "price": -120
+          },
+          {
+          "name": "Linköping HC",
+          "price": 210
+          },
+          {
+          "name": "Draw",
+          "price": 310
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "3f62bd446fc1fbf1b99d20b11eed2270",
+          "sport_key": "soccer_sweden_allsvenskan",
+          "sport_title": "Allsvenskan - Sweden",
+          "commence_time": "2022-10-20T17:00:00Z",
+          "home_team": "Degerfors IF",
+          "away_team": "IFK Goteborg",
+          "bookmakers": [
+          {
+          "key": "twinspires",
+          "title": "TwinSpires",
+          "last_update": "2022-10-20T14:17:00Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 138
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "barstool",
+          "title": "Barstool Sportsbook",
+          "last_update": "2022-10-20T14:15:26Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 138
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "sugarhouse",
+          "title": "SugarHouse",
+          "last_update": "2022-10-20T14:16:10Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 138
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betrivers",
+          "title": "BetRivers",
+          "last_update": "2022-10-20T14:16:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 138
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "wynnbet",
+          "title": "WynnBET",
+          "last_update": "2022-10-20T14:15:21Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 140
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-10-20T14:15:45Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 125
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 175
+          },
+          {
+          "name": "Draw",
+          "price": 250
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "bovada",
+          "title": "Bovada",
+          "last_update": "2022-10-20T14:14:39Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 140
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "williamhill_us",
+          "title": "William Hill (US)",
+          "last_update": "2022-10-20T14:15:16Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 140
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:16:28Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 144
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 196
+          },
+          {
+          "name": "Draw",
+          "price": 285
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 148
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 200
+          },
+          {
+          "name": "Draw",
+          "price": 290
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-10-20T14:16:34Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 140
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "foxbet",
+          "title": "FOX Bet",
+          "last_update": "2022-10-20T14:15:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 125
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 163
+          },
+          {
+          "name": "Draw",
+          "price": 220
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "gtbets",
+          "title": "GTbets",
+          "last_update": "2022-10-20T14:16:36Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 135
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 177
+          },
+          {
+          "name": "Draw",
+          "price": 266
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "unibet_us",
+          "title": "Unibet",
+          "last_update": "2022-10-20T14:16:35Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 138
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:14:30Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 130
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 250
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betus",
+          "title": "BetUS",
+          "last_update": "2022-10-20T14:15:49Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 140
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 180
+          },
+          {
+          "name": "Draw",
+          "price": 265
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-10-20T14:15:27Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Degerfors IF",
+          "price": 138
+          },
+          {
+          "name": "IFK Goteborg",
+          "price": 185
+          },
+          {
+          "name": "Draw",
+          "price": 280
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "73617d9e081470f471cf78a35f63fd4c",
+          "sport_key": "soccer_sweden_allsvenskan",
+          "sport_title": "Allsvenskan - Sweden",
+          "commence_time": "2022-10-20T17:00:00Z",
+          "home_team": "Malmo FF",
+          "away_team": "Djurgardens IF",
+          "bookmakers": [
+          {
+          "key": "sugarhouse",
+          "title": "SugarHouse",
+          "last_update": "2022-10-20T14:16:10Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betrivers",
+          "title": "BetRivers",
+          "last_update": "2022-10-20T14:16:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "twinspires",
+          "title": "TwinSpires",
+          "last_update": "2022-10-20T14:17:00Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "barstool",
+          "title": "Barstool Sportsbook",
+          "last_update": "2022-10-20T14:15:26Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-10-20T14:15:45Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 260
+          },
+          {
+          "name": "Malmo FF",
+          "price": 100
+          },
+          {
+          "name": "Draw",
+          "price": 230
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "wynnbet",
+          "title": "WynnBET",
+          "last_update": "2022-10-20T14:15:21Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "bovada",
+          "title": "Bovada",
+          "last_update": "2022-10-20T14:14:39Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 245
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 225
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "williamhill_us",
+          "title": "William Hill (US)",
+          "last_update": "2022-10-20T14:15:16Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 113
+          },
+          {
+          "name": "Draw",
+          "price": 225
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "foxbet",
+          "title": "FOX Bet",
+          "last_update": "2022-10-20T14:15:20Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 205
+          },
+          {
+          "name": "Malmo FF",
+          "price": 105
+          },
+          {
+          "name": "Draw",
+          "price": 210
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:16:28Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 290
+          },
+          {
+          "name": "Malmo FF",
+          "price": 112
+          },
+          {
+          "name": "Draw",
+          "price": 255
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 300
+          },
+          {
+          "name": "Malmo FF",
+          "price": 116
+          },
+          {
+          "name": "Draw",
+          "price": 265
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-10-20T14:16:34Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 255
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "gtbets",
+          "title": "GTbets",
+          "last_update": "2022-10-20T14:16:36Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 248
+          },
+          {
+          "name": "Malmo FF",
+          "price": 106
+          },
+          {
+          "name": "Draw",
+          "price": 248
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "unibet_us",
+          "title": "Unibet",
+          "last_update": "2022-10-20T14:16:35Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 245
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:14:30Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 260
+          },
+          {
+          "name": "Malmo FF",
+          "price": 105
+          },
+          {
+          "name": "Draw",
+          "price": 240
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betus",
+          "title": "BetUS",
+          "last_update": "2022-10-20T14:15:49Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 250
+          },
+          {
+          "name": "Malmo FF",
+          "price": 110
+          },
+          {
+          "name": "Draw",
+          "price": 250
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-10-20T14:15:27Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "Djurgardens IF",
+          "price": 275
+          },
+          {
+          "name": "Malmo FF",
+          "price": 106
+          },
+          {
+          "name": "Draw",
+          "price": 255
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "34897571eafc23f13d78eb07677c78f5",
+          "sport_key": "basketball_euroleague",
+          "sport_title": "Basketball Euroleague",
+          "commence_time": "2022-10-20T17:00:00Z",
+          "home_team": "Žalgiris",
+          "away_team": "FC Barcelona Bàsquet",
+          "bookmakers": [
+          {
+          "key": "betfair",
+          "title": "Betfair",
+          "last_update": "2022-10-20T14:17:02Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -303
+          },
+          {
+          "name": "Žalgiris",
+          "price": 265
+          }
+          ]
+          },
+          {
+          "key": "h2h_lay",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -263
+          },
+          {
+          "name": "Žalgiris",
+          "price": 300
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "bovada",
+          "title": "Bovada",
+          "last_update": "2022-10-20T14:17:06Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -325
+          },
+          {
+          "name": "Žalgiris",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "barstool",
+          "title": "Barstool Sportsbook",
+          "last_update": "2022-10-20T14:16:59Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -335
+          },
+          {
+          "name": "Žalgiris",
+          "price": 255
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "twinspires",
+          "title": "TwinSpires",
+          "last_update": "2022-10-20T14:17:41Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -335
+          },
+          {
+          "name": "Žalgiris",
+          "price": 255
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "sugarhouse",
+          "title": "SugarHouse",
+          "last_update": "2022-10-20T14:17:32Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -335
+          },
+          {
+          "name": "Žalgiris",
+          "price": 255
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "unibet_us",
+          "title": "Unibet",
+          "last_update": "2022-10-20T14:17:00Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -335
+          },
+          {
+          "name": "Žalgiris",
+          "price": 255
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "intertops",
+          "title": "Intertops",
+          "last_update": "2022-10-20T14:14:38Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -357
+          },
+          {
+          "name": "Žalgiris",
+          "price": 255
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "lowvig",
+          "title": "LowVig.ag",
+          "last_update": "2022-10-20T14:15:28Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -300
+          },
+          {
+          "name": "Žalgiris",
+          "price": 250
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "gtbets",
+          "title": "GTbets",
+          "last_update": "2022-10-20T14:15:50Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -351
+          },
+          {
+          "name": "Žalgiris",
+          "price": 243
+          }
+          ]
+          }
+          ]
+          },
+          {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-10-20T14:17:40Z",
+          "markets": [
+          {
+          "key": "h2h",
+          "outcomes": [
+          {
+          "name": "FC Barcelona Bàsquet",
+          "price": -315
+          },
+          {
+          "name": "Žalgiris",
+          "price": 260
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          }
+          ]
     

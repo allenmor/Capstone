@@ -98,7 +98,7 @@
 
 .profile-div {
     position: absolute;
-    border: 3px solid red;
+    border: 1px solid rgb(198, 195, 195);
     background-color: rgb(255,255,255);
     display: flex;
     overflow: hidden;
@@ -106,10 +106,12 @@
     width: 35vh;
     flex-direction: column;
     top: 6vh;
+    border-radius: 5px;
 }
 
 .profile-div h1 {
     color: black;
+    font-size: 1.5rem;
 }
 
 .profile-div p{
@@ -117,6 +119,7 @@
 }
 .add-withdraw-div {
     display: flex;
+
 }
 .add-withdraw-div p{
         border-radius: 5px;
@@ -125,6 +128,7 @@
         vertical-align: middle;
         line-height: 5vh;
         width:10vw;
+        color: white;
 }
 
 .add-money-btn{
@@ -132,8 +136,12 @@
 
 }
 
-.withdraw-btn {
 
+.hope-ny {
+    color: white;
+}
+
+.withdraw-btn {
     background-color: rgb(20,137,239);
 }
 
@@ -152,6 +160,7 @@
     color: white;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 .green-logo {
     margin-right: 6vw;

@@ -53,11 +53,11 @@ export default function BettingOptions({
   })
   .then(res => res.json())
   .then(data => {
-    console.log('roulettet', data)
+    console.log(data)
+    console.log(isWheelSpinning)
   })
   }
 
-  console.log('dsafdsafdsaf',totalAmountWon)
 
   useEffect(()=>{
   
@@ -72,7 +72,6 @@ export default function BettingOptions({
     })
     .then(res => res.json())
     .then(data => {
-      console.log('wonroul', data)
     })
     }
   },[totalAmountWon])

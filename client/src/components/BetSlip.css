@@ -55,6 +55,7 @@
 
 .current-bets-div{
     display: flex;
+    align-items: center;
 }
 .remove-all {
     margin-top: 2vh;

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 
 import './BetSlip.css'
-function BetSlip({time, id, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
+function BetSlip({time, id=3, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
 
     let initialBet = {
         bet_amount: '',
@@ -27,12 +27,14 @@ function BetSlip({time, id, date, setCurrAwayGame, currAwayGame, currGame, setCu
 
 
     function handleBetChange(e) {
-
+        if(parseInt(e.target.value) < 0) {
+            e.target.value = 0
+        }
         setBet({
             ...bet,
            game_id: id,
            bet_amount: e.target.value,
-           payout: currGame.price > 0 ? currGame.price / 100 * bet.bet_amount: bet.bet_amount / Math.abs(currGame.price / 100),
+           payout: currGame.price > 0 ? currGame.price / 100 * e.target.value: Math.ceil(e.target.value / Math.abs(currGame.price / 100)),
            spread: currGame.price,
            home: currGame.name,
            away: currGame.opposing_team,
@@ -40,9 +42,17 @@ function BetSlip({time, id, date, setCurrAwayGame, currAwayGame, currGame, setCu
         })
     }
 
-
     function handleBetSubmit(e) {
         e.preventDefault()
+        console.log(bet.bet_amount)
+        console.log(bet.spread)
+        console.log(bet.payout)
+        if(bet.bet_amount * bet.spread != bet.payout) {
+            setBet({
+                ...bet,
+                payout: bet.payout * 10
+            })
+        }
         if(sessionStorage.getItem('jwt')) {
             fetch('/sportsbet', {
                 method: 'POST',
@@ -54,7 +64,7 @@ function BetSlip({time, id, date, setCurrAwayGame, currAwayGame, currGame, setCu
             })
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                setBet(initialBet)
             })
         }
     }
@@ -82,7 +92,7 @@ function BetSlip({time, id, date, setCurrAwayGame, currAwayGame, currGame, setCu
                 <i>$</i>
                 <input onChange={handleBetChange} name='bet_amount' value={bet.bet_amount} placeholder='Wager' type='number' />
                 <i>$</i>
-                <input onChange={handleBetChange} name='payout' value={(currGame.price > 0 ? currGame.price / 100 * bet.bet_amount: bet.bet_amount / Math.abs(currGame.price / 100)).toFixed(0)} placeholder='To Win' type='text' />
+                <input onChange={handleBetChange} name='payout' value={(currGame.price > 0 ? currGame.price / 100 * bet.bet_amount: bet.bet_amount / Math.abs(currGame.price / 100)).toFixed(0)} placeholder='To Win' type='number' />
                 </div>
                 <input className='submit-sports-bet' type='submit' value={sessionStorage.getItem('jwt') ? 'Submit' : 'Log In'} />
             </form>

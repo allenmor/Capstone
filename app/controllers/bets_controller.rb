@@ -4,7 +4,7 @@ class BetsController < ApplicationController
     def bets_for_user
         token = request.headers['token']
         user_id = decode(token)
-        bets = Bet.where(user_id: user_id)
+        bets = Bet.where(user_id: user_id, pending: nil)
         render json: bets
     end
 
@@ -68,7 +68,7 @@ class BetsController < ApplicationController
             game_id: params[:game_id],
             user_id: user_id,
             bet_amount: params[:bet_amount],
-            payout: params[:payout] * 10,
+            payout: params[:payout],
             pending: params[:pending],
             home: params[:home],
             away: params[:away],

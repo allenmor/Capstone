@@ -19,7 +19,6 @@ function Roulette({ loggedUser, setLoggedUser }) {
     });
 
     useEffect(() => {
-      console.log('user balance after putting chip',loggedUser.balance)
         setChipCount(loggedUser.balance)
     }, [loggedUser])
     const [splits, setSplits] = useState({

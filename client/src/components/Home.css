@@ -80,12 +80,20 @@
     justify-content: center;
 }
 
+.bet-num:hover {
+    border: 1px solid black;
+}
+
+.bet-num::selection {
+    border: 1px solid black;
+}
 .best-bet {
     background-color: rgb(244,193,85);
     font-weight: bold;
     text-align: center;
     cursor: pointer;
 }
+
 .home-away-team{
     /* width: 1vw; */
     display: block;
