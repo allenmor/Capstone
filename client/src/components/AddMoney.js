@@ -9,14 +9,13 @@ function AddMoney({setLoggedUser}) {
     const [userCards, setUserCards] = useState([])
     let initialCard = {
         name: '',
-        company: '',
         number: '',
         exp: '',
         code: '',
         amount: ''
     }
+    const [errorCard, setErrorCard] = useState([])
     const [cardInfo, setCardInfo] = useState(initialCard)
-    
     function handleCardChange(e) {
         setCardInfo({
             ...cardInfo,
@@ -35,11 +34,18 @@ function AddMoney({setLoggedUser}) {
         })
         .then(res => res.json())
         .then(data => {
+          if(!data.error){
             setLoggedUser(data)
+            setErrorCard(['Card and funds added'])
+          } else {
+
+            setErrorCard(data.error)
+          }
         })
-        navigate(`/`);
+        // navigate(`/`);
     }
 
+    console.log(errorCard)
 
     // LOAD EXISTING CARDS
 
@@ -52,7 +58,7 @@ function AddMoney({setLoggedUser}) {
     .then(res => res.json())
     .then(data => {
         setUserCards(data)
-
+        console.log(data)
     })
     },[])
   return (
@@ -85,6 +91,9 @@ function AddMoney({setLoggedUser}) {
           <form className="add-form" onSubmit={handleAddCardSubmit}>
             <div className="wrapper">
               <div className="outer-card">
+                {errorCard.map((el, i) => {
+                  return <p className="errors">{el}</p>
+                })}
                 <div className="forms">
                   <div className="input-items">
                     <span>Amount</span>

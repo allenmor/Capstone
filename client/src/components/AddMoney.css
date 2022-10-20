@@ -33,7 +33,7 @@
 
 .wrapper {
     width: 30vw;
-    height: 52vh;
+
     position: relative;
     border-radius: 10px;
     margin-bottom: 5vh;
@@ -141,4 +141,9 @@ input::-webkit-input-placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.errors {
+    color: red;
+    font-size: 0.8rem;
 }

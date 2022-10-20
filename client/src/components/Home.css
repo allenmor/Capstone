@@ -78,6 +78,7 @@
     width: 50px;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgb(233,236,239);
 }
 
 .bet-num:hover {
@@ -92,8 +93,11 @@
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    border-radius: 5px;
 }
-
+.best-bet:hover {
+    border: 1px solid black;
+}
 .home-away-team{
     /* width: 1vw; */
     display: block;

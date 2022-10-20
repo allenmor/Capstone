@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import WithdrawUserCard from './WithdrawUserCard';
 
 function WithdrawMoney({setLoggedUser, loggedUser}) {
+  const [errorWithdraw, setErrorWithdraw] = useState([])
     const navigate = useNavigate();
     const [userCards, setUserCards] = useState([])
     let initialCard = {
@@ -38,7 +39,12 @@ function WithdrawMoney({setLoggedUser, loggedUser}) {
             })
             .then(res => res.json())
             .then(data => {
+              if(!data.error) {
                 setLoggedUser(data)
+                setErrorWithdraw(['Card added and money withdrawn'])
+              } else {
+                setErrorWithdraw(data.error)
+              }
             })
             // navigate(`/`);
         } else {
@@ -65,7 +71,6 @@ function WithdrawMoney({setLoggedUser, loggedUser}) {
     .then(res => res.json())
     .then(data => {
         setUserCards(data)
-        console.log(data)
     })
     },[])
   return (
@@ -87,6 +92,9 @@ function WithdrawMoney({setLoggedUser, loggedUser}) {
           <form className="add-form" onSubmit={handleAddCardSubmit}>
             <div className="wrapper">
               <div className="outer-card">
+                {errorWithdraw.map((el, i) => {
+                  return <p className='errors'>{el}</p>
+                })}
                 <div className="forms">
                   <div className="input-items">
                     <span>Amount</span>

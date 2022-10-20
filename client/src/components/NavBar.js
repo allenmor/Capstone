@@ -102,14 +102,12 @@ or text HOPENY <b>(467369)</b>
           <p onClick={handleAddMoneyClick} className="add-money-btn">Add Funds</p>
           <p onClick={handleWithdrawClick} className="withdraw-btn">Withdraw Funds</p>
           </div>
-          <p>Transaction History</p>
-          <p>Help and Support</p>
           <p onClick={handleLogOut} className="log-out-in-profile">Log Out</p>
         </div> : <></>
         }
         <div className="balance-div">
-         <p>{`$${loggedUser.balance}`}</p> 
-         <p className="balance-word">Balance</p>
+         <p onClick={handleProfileClick}>{`$${loggedUser.balance}`}</p> 
+         <p  onClick={handleProfileClick} className="balance-word">Balance</p>
         </div>
       <p onClick={handleLogOut} className="log-out-btn">Log Out</p>
       </div>    
