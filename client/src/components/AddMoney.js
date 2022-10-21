@@ -26,11 +26,11 @@ function AddMoney({setLoggedUser}) {
     function handleAddCardSubmit(e) {
         e.preventDefault()
         fetch('https://mysite-8r0y.onrender.com/cards', {
-            method: 'POST',
-            headers: { 
-                token: sessionStorage.getItem('jwt'),
-                'Content-Type': 'application/json'
-            },
+          method: 'POST',
+          headers: {
+              token: sessionStorage.getItem('jwt'),
+              'Content-Type': 'application/json'
+          },
             body: JSON.stringify(cardInfo)
         })
         .then(res => res.json())

@@ -54,6 +54,7 @@ function BetSlip({time, id=3, date, setCurrAwayGame, currAwayGame, currGame, set
             })
         }
         if(sessionStorage.getItem('jwt')) {
+            console.log(bet)
             fetch('https://mysite-8r0y.onrender.com/sportsbet', {
                 method: 'POST',
                 headers: {

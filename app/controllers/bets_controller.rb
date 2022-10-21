@@ -1,5 +1,6 @@
 class BetsController < ApplicationController
-
+    rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
+    rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response 
 
     def bets_for_user
         token = request.headers['token']
@@ -67,13 +68,25 @@ class BetsController < ApplicationController
         bet = Bet.create!(
             game_id: params[:game_id],
             user_id: user_id,
-            bet_amount: params[:bet_amount],
+            bet_amount: params[:bet_amount].to_i,
             payout: params[:payout],
             pending: params[:pending],
             home: params[:home],
             away: params[:away],
             spread: params[:spread].to_i
         )
-        render json: bet
+        if bet 
+
+            render json: bet
+        else
+            render_not_found_response
+        end
     end
+    private 
+    def render_unprocessable_entity_response(invalid)
+        render json: {error: invalid.record.errors.full_messages}, status: :unprocessable_entity
+      end
+      def render_not_found_response(exception)
+        render json: { error: "#{exception.model} not found" }, status: :not_found
+      end
 end
