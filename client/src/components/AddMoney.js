@@ -53,7 +53,7 @@ function AddMoney({setLoggedUser}) {
     fetch('/cardsbyuser' , {
         headers: {
             token: sessionStorage.getItem('jwt')
-        }
+        } 
     })
     .then(res => res.json())
     .then(data => {
