@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 
 import './BetSlip.css'
-function BetSlip({time, id=3, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
+function BetSlip({time, id=4, date, setCurrAwayGame, currAwayGame, currGame, setCurrGame}) {
 
     let initialBet = {
         bet_amount: '',

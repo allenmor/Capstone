@@ -20,7 +20,7 @@ class BetsController < ApplicationController
         token = request.headers['token']
         user_id = decode(token)
         bet =  Bet.create(
-            game_id: 1,
+            game_id: 2,
             user_id: user_id,
             bet_amount: params[:bet_amount].to_i,
             payout: 0
@@ -45,7 +45,7 @@ class BetsController < ApplicationController
         token = request.headers['token']
         user_id = decode(token)
         bet =  Bet.create(
-            game_id: 2,
+            game_id: 3,
             user_id: user_id,
             bet_amount: params[:bet_amount].to_i,
             payout: 0

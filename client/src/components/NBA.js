@@ -45,7 +45,7 @@ function NBA({loggedUser}) {
       return <NBACard setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} game={el} key={i} />
     })}
     </div>
-      <BetSlip id={6} currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
+      <BetSlip id={7} currAwayGame={currAwayGame} setCurrAwayGame={setCurrAwayGame} setCurrGame={setCurrGame} currGame={currGame} date={currDate} time={currTime}/>
   </div>
   )
 }
