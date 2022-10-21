@@ -9,7 +9,7 @@ function MyBets({ setLoggedUser, loggedUser }) {
 
   // CLOSED BETS
   useEffect(() => {
-    fetch("/betsforuser", {
+    fetch("https://mysite-8r0y.onrender.com/betsforuser", {
       headers: {
         token: sessionStorage.getItem("jwt"),
         "Content-Type": "application/json",
@@ -23,7 +23,7 @@ function MyBets({ setLoggedUser, loggedUser }) {
 
   // PENDING BETS
   useEffect(() => {
-    fetch("/pendingbets", {
+    fetch("https://mysite-8r0y.onrender.com/pendingbets", {
       headers: {
         token: sessionStorage.getItem("jwt"),
         "Content-Type": "application/json",
