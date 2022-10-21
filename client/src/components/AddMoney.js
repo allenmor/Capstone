@@ -25,7 +25,7 @@ function AddMoney({setLoggedUser}) {
     }
     function handleAddCardSubmit(e) {
         e.preventDefault()
-        fetch('/cards', {
+        fetch('https://mysite-8r0y.onrender.com/cards', {
             method: 'POST',
             headers: { 
                 token: sessionStorage.getItem('jwt'),
@@ -51,7 +51,7 @@ function AddMoney({setLoggedUser}) {
     // LOAD EXISTING CARDS
 
     useEffect(()=>{
-    fetch('/cardsbyuser' , {
+    fetch('https://mysite-8r0y.onrender.com/cardsbyuser' , {
         headers: {
             token: sessionStorage.getItem('jwt')
         } 

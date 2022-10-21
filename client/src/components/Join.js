@@ -20,7 +20,7 @@ function Join({setUserSignedUp}) {
 
     function handleSignUpSubmit(e){
         e.preventDefault()
-        fetch('/users', {
+        fetch('https://mysite-8r0y.onrender.com/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

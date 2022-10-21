@@ -114,7 +114,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         setDealerCount(null);
         setIsBlackJack(false);
         setPreviousBet(lockedBet);
-        fetch('/blackjackstart', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackstart', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),
@@ -126,7 +126,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
-          fetch('/blackjackbet', {
+          fetch('https://mysite-8r0y.onrender.com/blackjackbet', {
             method: 'POST',
             headers: {
                 token: sessionStorage.getItem('jwt'),
@@ -248,7 +248,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         setDealerCount(null);
         setLockedBet(0);
         setIsBlackJack(false);
-        fetch('/blackjackstart', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackstart', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),
@@ -260,7 +260,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
-        fetch('/blackjackbet', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackbet', {
           method: 'POST',
           headers: {
               token: sessionStorage.getItem('jwt'),
@@ -290,7 +290,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
           setIsDealersTurn(true);
         }, 1500);
         setDidDouble(true);
-        fetch('/blackjackstart', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackstart', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),
@@ -302,7 +302,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
-        fetch('/blackjackdouble', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackdouble', {
           method: 'PATCH',
           headers: {
               token: sessionStorage.getItem('jwt'),
@@ -469,7 +469,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
       }
       if (winner === "player" && !isBlackjack) {
         if (didDouble) {
-            fetch('/blackjackfinish', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
                 method: 'PATCH',
                 headers: {
                     token: sessionStorage.getItem('jwt'),
@@ -481,7 +481,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
-            fetch('/blackjackoutcome', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackoutcome', {
               method: 'PATCH',
               headers: {
                   token: sessionStorage.getItem('jwt'),
@@ -495,7 +495,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
           })
           setChipCount(chipCount + previousBet * 4);
         } else {
-            fetch('/blackjackfinish', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
                 method: 'PATCH',
                 headers: {
                     token: sessionStorage.getItem('jwt'),
@@ -507,7 +507,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
-            fetch('/blackjackoutcome', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackoutcome', {
               method: 'PATCH',
               headers: {
                   token: sessionStorage.getItem('jwt'),
@@ -523,7 +523,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         }
       }
       if (winner === "player" && isBlackjack) {
-        fetch('/blackjackfinish', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),
@@ -535,7 +535,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
         .then(data => {
             setLoggedUser(data)
         })
-        fetch('/blackjackoutcome', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackoutcome', {
           method: 'PATCH',
           headers: {
               token: sessionStorage.getItem('jwt'),
@@ -551,7 +551,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
       }
       if (winner === "push") {
         if (didDouble) {
-            fetch('/blackjackfinish', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
                 method: 'PATCH',
                 headers: {
                     token: sessionStorage.getItem('jwt'),
@@ -563,7 +563,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
-            fetch('/blackjackoutcome', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackoutcome', {
               method: 'PATCH',
               headers: {
                   token: sessionStorage.getItem('jwt'),
@@ -577,7 +577,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
           })
           setChipCount(chipCount + previousBet * 2);
         } else {
-            fetch('/blackjackfinish', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
                 method: 'PATCH',
                 headers: {
                     token: sessionStorage.getItem('jwt'),
@@ -589,7 +589,7 @@ function BlackJack({ loggedUser, setLoggedUser }) {
             .then(data => {
                 setLoggedUser(data)
             })
-            fetch('/blackjackoutcome', {
+            fetch('https://mysite-8r0y.onrender.com/blackjackoutcome', {
               method: 'PATCH',
               headers: {
                   token: sessionStorage.getItem('jwt'),

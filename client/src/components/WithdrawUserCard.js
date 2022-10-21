@@ -29,7 +29,7 @@ function WithdrawUserCard({card, setLoggedUser, loggedUser}) {
         console.log(parseInt(balanceAmount.balance))
         console.log(loggedUser.balance);
         if(balanceAmount.balance < loggedUser.balance) {
-            fetch('/withdrawmoney', {
+            fetch('https://mysite-8r0y.onrender.com/withdrawmoney', {
                 method: 'PATCH',
                 headers: {
                     token: sessionStorage.getItem('jwt'),

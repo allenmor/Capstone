@@ -43,7 +43,7 @@ export default function BettingOptions({
   };
 
   if(isWheelSpinning) {
-    fetch('/roulettebet', {
+    fetch('https://mysite-8r0y.onrender.com/roulettebet', {
       method: 'POST',
       headers: {
           token: sessionStorage.getItem('jwt'),
@@ -62,7 +62,7 @@ export default function BettingOptions({
   useEffect(()=>{
   
     if(totalAmountWon > 0) {
-      fetch('/roulettewon', {
+      fetch('https://mysite-8r0y.onrender.com/roulettewon', {
         method: 'PATCH',
         headers: {
             token: sessionStorage.getItem('jwt'),

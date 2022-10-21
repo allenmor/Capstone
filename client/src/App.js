@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     let token = sessionStorage.getItem('jwt')
     if(token && !loggedUser.name) {
-        fetch('/me', {
+        fetch('https://mysite-8r0y.onrender.com/me', {
             headers: {
                 token: token,
                 'Content-Type': 'application/json'

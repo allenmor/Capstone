@@ -860,7 +860,7 @@ export default function Layout({
           console.log("Something went wrong in Betting Options > increaseBet() > switch statement")
           break;
       }
-      fetch('/blackjackstart', {
+      fetch('https://mysite-8r0y.onrender.com/blackjackstart', {
         method: 'PATCH',
         headers: {
             token: sessionStorage.getItem('jwt'),

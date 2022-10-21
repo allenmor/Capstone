@@ -26,7 +26,7 @@ function UserCards({card, setLoggedUser}) {
     function handleCardSubmit(e) {
         e.preventDefault()
         
-        fetch('/addMoney', {
+        fetch('https://mysite-8r0y.onrender.com/addMoney', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),

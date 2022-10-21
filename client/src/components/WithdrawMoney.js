@@ -29,7 +29,7 @@ function WithdrawMoney({setLoggedUser, loggedUser}) {
         console.log(cardInfo)
         if(cardInfo.amount < loggedUser.balance) {
 
-            fetch('/withdrawcards', {
+            fetch('https://mysite-8r0y.onrender.com/withdrawcards', {
                 method: 'PATCH',
                 headers: {
                     token: sessionStorage.getItem('jwt'),
@@ -63,7 +63,7 @@ function WithdrawMoney({setLoggedUser, loggedUser}) {
     // LOAD EXISTING CARDS
 
     useEffect(()=>{
-    fetch('/cardsbyuser' , {
+    fetch('https://mysite-8r0y.onrender.com/cardsbyuser' , {
         headers: {
             token: sessionStorage.getItem('jwt')
         }

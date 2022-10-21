@@ -151,7 +151,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
       setOddEven({"odd":0, "even":0});
       setHighLow({"low":0, "high":0});
       if (!isSpinComplete) {
-        fetch('/blackjackfinish', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),
@@ -306,7 +306,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
         default:
           console.log("No recent bet");
       }
-      fetch('/blackjackfinish', {
+      fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
         method: 'PATCH',
         headers: {
             token: sessionStorage.getItem('jwt'),
@@ -332,7 +332,7 @@ function Roulette({ loggedUser, setLoggedUser }) {
     const collectWinnings = () => {
       setIsSpinComplete(false);
       if (totalAmountWon > 0) {
-        fetch('/blackjackfinish', {
+        fetch('https://mysite-8r0y.onrender.com/blackjackfinish', {
             method: 'PATCH',
             headers: {
                 token: sessionStorage.getItem('jwt'),
