@@ -21,6 +21,7 @@ function AddMoney({setLoggedUser}) {
             ...cardInfo,
             [e.target.name]: e.target.value
         })
+        console.log(cardInfo)
     }
     function handleAddCardSubmit(e) {
         e.preventDefault()
