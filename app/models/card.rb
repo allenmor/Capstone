@@ -4,4 +4,4 @@ class Card < ApplicationRecord
     validates :number, length: { is: 16 }, presence: true
     validates :exp, length: { is: 4 }
     validates :code, length: { is: 3 }
-end
+end 
