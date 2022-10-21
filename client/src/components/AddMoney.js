@@ -27,7 +27,7 @@ function AddMoney({setLoggedUser}) {
         e.preventDefault()
         fetch('/cards', {
             method: 'POST',
-            headers: {
+            headers: { 
                 token: sessionStorage.getItem('jwt'),
                 'Content-Type': 'application/json'
             },
