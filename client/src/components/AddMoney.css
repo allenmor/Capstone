@@ -147,3 +147,29 @@ input::-webkit-input-placeholder {
     color: red;
     font-size: 0.8rem;
 }
+
+@media(max-width: 500px) { 
+
+    .wrapper {
+        width: 90vw;
+    }
+    .wrapper .forms input { 
+        width: 89%;
+    }
+    .saved-card-container {
+        width: 88vw;
+    }
+
+    .each-card {
+        width: 100%;
+    }
+    .card-type-logo {
+        width: 8vw;
+    }
+    .credit-cards-div {
+        width: 62vw;
+    }
+    .any-funds {
+        width: 60vw;
+    }
+}

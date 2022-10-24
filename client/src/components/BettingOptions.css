@@ -307,7 +307,6 @@
 }
   
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-
 }
   
 @media only screen and (min-width: 425px) and (max-width: 767px) {
@@ -316,4 +315,26 @@
   
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
     
+}
+
+@media(max-width: 500px) { 
+
+    .chip-options-div {
+        flex-wrap: nowrap;
+    }
+
+    .chip-img {
+        height: 3vh;
+    }
+
+    .layout-div {
+        height: 49vh;
+    }
+    .roulette-wheel {
+        height: 12vh;
+    margin-left: 4vw;
+    }
+    .spin-circle {
+        margin-right: 26vw;
+    }
 }

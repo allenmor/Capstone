@@ -209,3 +209,61 @@
 .balance-word {
     font-size: 0.8rem;
 }
+
+@media(max-width: 500px) { 
+    .if-you {
+        display: none;
+    }
+
+    .blackjack-nav-btn {
+        margin-right: 4vw;
+    }
+    .nav-container div p {
+        font-size: 0.8rem;
+    }
+    .log-join-div p {
+        width: 16vw;
+    }
+
+    .home-card-div {
+        overflow-y: scroll;
+        height: 58vh;
+        width: 87vw;
+    }
+    .home-div {
+        flex-direction: column;
+    }
+
+    .bet-slip-container {
+        margin-left: 19vw;
+        width: 79vw;
+        height: 29.6vh;
+    }
+
+    .images-front {
+        height: 11vh;
+    }
+
+    .remove-all {
+        padding: 0.2rem;
+        margin-top: -32vh;
+    }
+    .submit-sports-bet {
+        padding: 0;
+        margin-top: 2vh;
+        position: relative;
+    }
+    .popular-div img {
+        display: none;
+    }
+    .popular-div {
+        width: 8vh;
+        font-size: 0.9rem;
+    }
+    .form-div {
+        max-width: 95vw;
+    }
+    .profile-div {
+        width: 23vh;
+    }
+}
