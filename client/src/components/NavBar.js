@@ -72,7 +72,7 @@ function NavBar({setLoggedUser, loggedUser}) {
       <div className="green-nav-container">
         <p onClick={handleLiveCasinoClick} className={liveCasinoClicked ? "blue-casino-logo":"green-logo"}>Live Casino</p>
         <p onClick={handleBlackJackClick} className='blackjack-nav-btn'>BlackJack</p>
-        <p onClick={handleRouletteClick}>Roulette</p>
+        <p className="roulette-nav-btn" onClick={handleRouletteClick}>Roulette</p>
       </div>
       <p className="if-you">If you or someone you know has a gambling problem, help is available. Call <a className="hope-ny" target="_blank" href="https://oasas.ny.gov/hopeline"><b>(877-8-HOPENY)</b></a>
 or text HOPENY <b>(467369)</b>
