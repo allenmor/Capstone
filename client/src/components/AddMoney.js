@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 import "./AddMoney.css";
 import { useNavigate } from "react-router-dom";
 import UserCards from "./UserCards";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Form } from 'react-bootstrap';
+
+
 
 function AddMoney({setLoggedUser}) {
     const navigate = useNavigate();
@@ -89,7 +93,57 @@ function AddMoney({setLoggedUser}) {
           <p>Add new method</p>
         </div>
         <div className="container">
-          <form className="add-form" onSubmit={handleAddCardSubmit}>
+        <Form onSubmit={handleAddCardSubmit}>
+        {errorCard.map((el, i) => {
+                  return <p className="errors">{el}</p>
+                })}
+      <Form.Group  className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Amount</Form.Label>
+        <Form.Control  onChange={handleCardChange}
+                    value={cardInfo.amount}
+                    name='amount'
+                    type='number' />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Card Number</Form.Label>
+        <Form.Control  onChange={handleCardChange}
+                      value={cardInfo.number}
+                      type='number'
+                      name='number' />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Name on card</Form.Label>
+        <Form.Control  onChange={handleCardChange}
+                      value={cardInfo.name}
+                      name='name'
+                     placeholder="Samuel Iscon" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Exp Date</Form.Label>
+        <Form.Control type='number'
+                      onChange={handleCardChange}
+                      value={cardInfo.exp} 
+                      name='exp'
+                      placeholder="mm/yy" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>CVV</Form.Label>
+        <Form.Control  onChange={handleCardChange}
+                      type='number'
+                      value={cardInfo.code}
+                      name='code'
+                        placeholder="..." />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+          {/* <form className="add-form" onSubmit={handleAddCardSubmit}>
             <div className="wrapper">
               <div className="outer-card">
                 {errorCard.map((el, i) => {
@@ -158,7 +212,7 @@ function AddMoney({setLoggedUser}) {
                 </div>
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>

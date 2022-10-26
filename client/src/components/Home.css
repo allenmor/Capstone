@@ -36,7 +36,9 @@
 }
 .home-at-away {
     display: flex;
+    margin-bottom: 6rem;
 }
+
 
 .sports-title {
     background-color: rgb(245,248,252);
@@ -61,12 +63,6 @@
 }
 
 .bet-num {
-    /* background-color: rgb(233,236,239);
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center; */
-
     background-color: rgb(233,236,239);
     border-radius: 5px;
     height: 40px;
@@ -78,7 +74,6 @@
     width: 50px;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(233,236,239);
 }
 
 .bet-num:hover {

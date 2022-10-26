@@ -84,7 +84,7 @@ function NFLCard({game, setCurrAwayGame, setCurrGame}) {
         <p>{game.home_team}&nbsp;</p>
         <p>@&nbsp;</p>
         <p>{game.away_team}</p>
-        <p>{game.commence_time}</p>
+
         </div>
         <table className='odds-table'>
             <thead className='table-head'>

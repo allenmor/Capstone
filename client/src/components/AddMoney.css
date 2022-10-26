@@ -118,7 +118,7 @@ input::-webkit-input-placeholder {
     display: flex;
     flex-direction: column;
     overflow-x: scroll;
-    height: 41vh;
+    max-height: 41vh;
 }
 .each-card {
     border-bottom: 0.5px solid gray;
